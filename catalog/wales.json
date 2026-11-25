@@ -1,0 +1,165 @@
+{
+  "id": "wales",
+  "name": "Wales",
+  "flag": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+  "autoload": false,
+  "view": [
+    -4.416,
+    52.403,
+    6.6
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/wales/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 811664,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/wales/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 306976,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/wales/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 5433268,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/wales/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 2165773,
+      "label": "geo"
+    },
+    {
+      "key": "roads",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/wales/roads.bin.gz",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 60515120,
+      "label": "estradas"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 811664,
+      "sha256": "7750787520527f61fb91c040a7f9edc2f017437b95ca3b1ddf1d739b03e4187b",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/wales/places.bin.gz",
+          "bytes": 259939,
+          "sha256": "41d9fc974f472d89682cf1f3215db6a90d8e8219c2d5d6fd416b4c495f3c3d28"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 306976,
+      "sha256": "4abebbe98e106e5fe0d99c20f6792a2c64a43cd0bd155ebb4e1c00927e2a3c80",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/wales/water.bin.gz",
+          "bytes": 95533,
+          "sha256": "08b0c44e23d064a85881c85148c96f14300895835f0d9acefdfab6241dccaeec"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 5433268,
+      "sha256": "6fd2cfcdd25b0269acf9eb8ac846e3a0eceb965297dd002d24d314b4d662d89d",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/wales/addresses.bin.gz",
+          "bytes": 2021568,
+          "sha256": "52862a6f43eee12aa95cc76e6d89d918d329aee2735723c807d00f51334d404c"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 2165773,
+      "sha256": "3291d12ddb20bc800a19bbb3f7b33475eefc8d84008b21144c6de710cd3749da",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/wales/geo.json.gz",
+          "bytes": 801097,
+          "sha256": "50d25467c0c2f9867c47dd87fcc5b7de048354ddaa3ea5f761f7ac13a60b7aa7"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 60515120,
+      "sha256": "ed9c71694e8fdc8d5196b90992e3f4f32fcaa03dd5bc00835a7932335975b783",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/wales/roads.bin.gz",
+          "bytes": 28070811,
+          "sha256": "dfd46511aed7706dd963cb72fb7be9da38984f21335febe7ba9dd1ee0617926d"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 35292464,
+      "sha256": "2110ffc6ba8ede69d78ec5d4ffae5952e5a0f80f48646b512d8fe4b55d25d6ce",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/wales/buildings.bin.gz",
+          "bytes": 13828784,
+          "sha256": "ad9660ee50d632b504e11b8351e8211e14db9aa928d1b4721cd9aef7967fab03"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 44943837,
+      "sha256": "94a5da493344f0a17941ecce6a9000614cac97ce202474604ad1b07d1108b95c",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/wales/map.pmtiles",
+          "bytes": 44943837,
+          "sha256": "94a5da493344f0a17941ecce6a9000614cac97ce202474604ad1b07d1108b95c"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/united-kingdom/wales-latest.osm.pbf",
+    "osmTimestamp": "2026-11-24T21:21:23Z",
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

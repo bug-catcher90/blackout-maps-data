@@ -1,0 +1,178 @@
+{
+  "id": "england-central-2",
+  "name": "England · Manchester, Liverpool, Leeds, Sheffield & Nottingham",
+  "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+  "autoload": false,
+  "country": "england",
+  "view": [
+    -1.453,
+    53.193,
+    6.8
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-central-2/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 3332388,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-central-2/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 436544,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-central-2/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 31373860,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-central-2/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 9754144,
+      "label": "geo"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 3332388,
+      "sha256": "51b7e9862b4a5b2c268ba6af8b3b37712a4cce013678f80bda650c4eea5213a2",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-central-2/places.bin.gz",
+          "bytes": 1034105,
+          "sha256": "e33733005282e2c482216f63cad373ec476fccfe4f4279398d83675e1d032e3b"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 436544,
+      "sha256": "2e112049f4744c6cb473559006ff3212908df0c1895674b34dc7706b91e3ce5e",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-central-2/water.bin.gz",
+          "bytes": 83031,
+          "sha256": "9f2ae51b59f9a51df3e898c6f2dc0ca635865b2a38311764b4ebbd32a00999db"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 31373860,
+      "sha256": "5507bcee97529f7910d7e7f4c8f52814e95a621a15998805eae0e54f6a3b0d24",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-central-2/addresses.bin.gz",
+          "bytes": 11812714,
+          "sha256": "e008e9f3ce7b7d56dd3d4d2656d7802ceb03864584afc265c8fa1679a6c234db"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 9754144,
+      "sha256": "3ac3b670f4171f486e08307ac9ce30f6a2c4d821664c1aa98b17e00af1b2ad59",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-central-2/geo.json.gz",
+          "bytes": 3446522,
+          "sha256": "6cc0856c85c390da56994dfbc51af8ff577dcfc37e7fe3b4f4d47d69ede00baf"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 173084612,
+      "sha256": "3d97cdf3d6a0469c71ceaf9a650b9ecda20a07ab4b839be3801923b413c871b4",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-central-2/roads.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "273296018a31ad5a33a4ca05f05eab7048b8dcb66e55527e50b26fb45fb4a666"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-central-2/roads.bin.gz.001",
+          "bytes": 27219597,
+          "sha256": "f7ddcef45cdd5be722d26bd3f95e9601cacf875708b716835ad6cef29cf0a701"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 129387796,
+      "sha256": "08268c62c638563777397b00d278bc2068a65d78d1f4e9ec6e14145225f20551",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-central-2/buildings.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "579a1ef1d029e1d68ecfe97b8f0385efc88769e3b98da971e400969976978e20"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-central-2/buildings.bin.gz.001",
+          "bytes": 4879358,
+          "sha256": "fbd2df6f544dac4e684b6eaaff757b6c47d0965e88e1b4461b664f02e40672fd"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 95256495,
+      "sha256": "28145779a25f2e9cb82c9d2b17186949bdb42d8986cbd367a92485f255c82b11",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-central-2/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "0018a189a15470fe067d6a0f194036b55f388311b93d9ffae49739c6466e3f33"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-central-2/map.pmtiles.001",
+          "bytes": 45000000,
+          "sha256": "f27d7e465aebae83ded3763df967c1abb182d83d678db7c28ae514e4b223e898"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-central-2/map.pmtiles.002",
+          "bytes": 5256495,
+          "sha256": "dbc28d76ed7acdaab0b45b0c95a5fea79ac5d6a28beae3537bb57e49e55aac6d"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/united-kingdom/england-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

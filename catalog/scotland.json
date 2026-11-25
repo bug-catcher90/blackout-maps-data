@@ -1,0 +1,172 @@
+{
+  "id": "scotland",
+  "name": "Scotland",
+  "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+  "autoload": false,
+  "view": [
+    -7.323,
+    57.838,
+    4.8
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/scotland/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1773368,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/scotland/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 1073064,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/scotland/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 12216398,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/scotland/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 4548026,
+      "label": "geo"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1773368,
+      "sha256": "8ea3724a9d1a40f871e0872370587d7343691d1621682ad378c6db4dae30f1f0",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/scotland/places.bin.gz",
+          "bytes": 472411,
+          "sha256": "71470607835e8680cd379ade8723088cc6a0ca74f98fd20e835a307ad559f094"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 1073064,
+      "sha256": "31179552e402547cc530fbd4524e57f486b829c74baa909a6a97649d4774f2ca",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/scotland/water.bin.gz",
+          "bytes": 225172,
+          "sha256": "34dedea01fbe908f10f079fd0dbbac5533c38dcabac2fbcef4f41ab6b96f7841"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 12216398,
+      "sha256": "d435cdf1dc0c4c8a0ce905688e912c62057b56d31ca5af2c2a943152c7f9df2d",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/scotland/addresses.bin.gz",
+          "bytes": 4754514,
+          "sha256": "bd6e0ca138e8c1a40c5c4702995cc379e9881210f19588b88010a99f1adbdf60"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 4548026,
+      "sha256": "811202cd7200b8ffab2f6b7e807bc7cf13e930e311ce45972cf07be769243f98",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/scotland/geo.json.gz",
+          "bytes": 1654166,
+          "sha256": "840d43f31b3e95fa9681ca1dbff8ad6c142be1d7fef3236eed47badf03a39758"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 110074724,
+      "sha256": "df91546c66c74bdee664fe9aafe83b2d99be16af1bd31e9054e316e0026356dc",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/scotland/roads.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "6d2579eccb8fdb7dc8efbfe18ab8d917cc81a0ce3a1be953ad74133a7b6977bf"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/scotland/roads.bin.gz.001",
+          "bytes": 4254766,
+          "sha256": "c0e43c76a7e65754c49960225238f512766802945c105a7ea7357d8543795875"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 90824936,
+      "sha256": "cfbac3edb163060d7878ee95be1809efd93e7262db5545c0b10ad0d6081355ef",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/scotland/buildings.bin.gz",
+          "bytes": 34681413,
+          "sha256": "595bb839102bb0b198df3eea72b42d9fe29447b3955fc2589255077f8f4eb005"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 127950296,
+      "sha256": "be0324b484cff983da97230e96f0dfff92e50a1427f92cbd3a7995b1018254ec",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/scotland/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "6d8f42ff533c743b920293b86446dae85114031d80d5aabfcb552d27c645231e"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/scotland/map.pmtiles.001",
+          "bytes": 45000000,
+          "sha256": "e32b6f8c424830dbbe67d3d5c8c8af4a708cc277d1fe13b041496002dadefd1a"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/scotland/map.pmtiles.002",
+          "bytes": 37950296,
+          "sha256": "a44bb1578d2a106f83c6279a7944f2668683c3e043fa229c6e92944832d8e3ac"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/united-kingdom/scotland-latest.osm.pbf",
+    "osmTimestamp": "2026-11-24T21:21:23Z",
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

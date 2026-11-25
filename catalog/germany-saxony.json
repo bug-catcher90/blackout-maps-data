@@ -1,0 +1,171 @@
+{
+  "id": "germany-saxony",
+  "name": "Germany · Saxony",
+  "flag": "🇩🇪",
+  "autoload": false,
+  "country": "germany",
+  "view": [
+    13.457,
+    50.928,
+    7
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saxony/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1661284,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saxony/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 342408,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saxony/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 31554381,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saxony/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 3368312,
+      "label": "geo"
+    },
+    {
+      "key": "roads",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saxony/roads.bin.gz",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 76719752,
+      "label": "estradas"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1661284,
+      "sha256": "5f84baec8ae6bc45a29ff6289045aa39314966aa662eff9e3e0d939218dc5d35",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saxony/places.bin.gz",
+          "bytes": 535021,
+          "sha256": "c493bf8c6676afe01c41728fb94804df03f2487ce0b9e211755688bd8ec58b82"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 342408,
+      "sha256": "5d7b77691a4f9d2651f1d0bc570785d42fa873f84c0289f5d4fbdb2f4feddfd0",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saxony/water.bin.gz",
+          "bytes": 110614,
+          "sha256": "9672710e24164108c4bc27fd25fffc07cbae726ffd8d5bfc02b412b6025b57c0"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 31554381,
+      "sha256": "46cff7ad65c95fa74ffed0c3213a25e8cf03ae0f5f7752789f8debd9477c96ad",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saxony/addresses.bin.gz",
+          "bytes": 12407365,
+          "sha256": "4548d15d7eba59a67a8e346b96430a4ed71bd43da2b2aefac03a19980e35b2e6"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 3368312,
+      "sha256": "2492d595e42b9b0870dac336383526eff0f44d3472c8474e9a43f210903e79cc",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saxony/geo.json.gz",
+          "bytes": 1220659,
+          "sha256": "6dcaf21d3b2c4c5cb01fe0815f54c4f5f56b844db137970a39931f29bd48c3f9"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 76719752,
+      "sha256": "bcf606fe2f9e18aa7331e82173d4b4aba675446855f6e165bce08a38f90b59b8",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saxony/roads.bin.gz",
+          "bytes": 33298400,
+          "sha256": "3f0a5094c74824bdcbf9d7a2ea95c03c6dab4f5d1e6465a2f3d8bb7dd6ce88f3"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 69660928,
+      "sha256": "e5fa8d8195df97aab9c3ec1aa45f7b930c0e75d68295061c9030a982c434f50f",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saxony/buildings.bin.gz",
+          "bytes": 30082615,
+          "sha256": "0181744eff67dab8605a120b01fd57736cac4761561a44bab2d7ca06c8ea7536"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 58174575,
+      "sha256": "4b56f67007c04c040539f390a72d4bcc00aa7618eea331480c28a2a69ee5dd94",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saxony/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "e20b1563f4a05b99836da653b961b1e69821ad26bdc05ad08ae7ec89f041fe80"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saxony/map.pmtiles.001",
+          "bytes": 13174575,
+          "sha256": "677e42f81c227ec903c68f001e272d4ac8d6ded0aa5de96d9c70c0cfc2c7617d"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/germany-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

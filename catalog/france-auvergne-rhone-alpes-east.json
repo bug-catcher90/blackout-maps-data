@@ -1,0 +1,171 @@
+{
+  "id": "france-auvergne-rhone-alpes-east",
+  "name": "France · Auvergne-Rhône-Alpes East (Isère, Savoie, Ain)",
+  "flag": "🇫🇷",
+  "autoload": false,
+  "country": "france",
+  "view": [
+    5.957,
+    45.608,
+    7.1
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-auvergne-rhone-alpes-east/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 954880,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-auvergne-rhone-alpes-east/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 792220,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-auvergne-rhone-alpes-east/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 7174008,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-auvergne-rhone-alpes-east/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 6986052,
+      "label": "geo"
+    },
+    {
+      "key": "roads",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-auvergne-rhone-alpes-east/roads.bin.gz",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 89858372,
+      "label": "estradas"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 954880,
+      "sha256": "1b08a3ef65b045cb273357d32403b8f6210a2de7b65e0ed8d65ea432cc54c81b",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-auvergne-rhone-alpes-east/places.bin.gz",
+          "bytes": 332795,
+          "sha256": "aaf0f3141e25312ab80dfea57e4b3e7a608d85780d82b425dd9e51810c418b33"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 792220,
+      "sha256": "d69b24a1af05bc00e0b4f8a41cd827955b7330d1013b97f8d8a5cf2a69fa81f6",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-auvergne-rhone-alpes-east/water.bin.gz",
+          "bytes": 228802,
+          "sha256": "32e31483539bc712d4c052593d89351362088f3716606604cc530b8f2401a878"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 7174008,
+      "sha256": "36286813261898616cd28787c20573050ac9a26397aff08c16b9d8d814379060",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-auvergne-rhone-alpes-east/addresses.bin.gz",
+          "bytes": 3265219,
+          "sha256": "502c5820103d571c87bb6b0536704a768f605b56389fa7b1e1c514f432274b50"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 6986052,
+      "sha256": "43fd422b2d886cf56f10de0bdf0edadc4128660df48d879be7dd871b89a928bf",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-auvergne-rhone-alpes-east/geo.json.gz",
+          "bytes": 2477826,
+          "sha256": "fba352cbba2ea7de58488a58823bf4fd20b9fed8130fb6059a92913d693679ea"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 89858372,
+      "sha256": "467666598fbdccd12e796cccc6ce2eb7a283b33290ea834635d45d9ce1958c31",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-auvergne-rhone-alpes-east/roads.bin.gz",
+          "bytes": 43518970,
+          "sha256": "3216958456d4ed37086be6715b322e0ae6a68f2bd365c8ba648ec493b803fd50"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 94770144,
+      "sha256": "58527bb97b73ed00fe5506cca4d0c63a2c076e9a209b5a5087921cc0dcfc5948",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-auvergne-rhone-alpes-east/buildings.bin.gz",
+          "bytes": 40539433,
+          "sha256": "dca78eac695891bf6395ef26bc927be58a739ba28b9738166e0e84cca3480d9e"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 71092906,
+      "sha256": "0a5c53d17a7152f48180a62ae65284d5bef2886ea0f8da1ec9d2405e42647d20",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-auvergne-rhone-alpes-east/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "532addd018239cb7de0b60516d8b43945a532b0d0b7f195839411903de4489a3"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-auvergne-rhone-alpes-east/map.pmtiles.001",
+          "bytes": 26092906,
+          "sha256": "834541670ee3b52c8f4cefb732eb900549d3ac20ff03f6f03db6794266ea3a92"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/france-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "id": "france-occitania-west",
+  "name": "France · Occitania West (Toulouse, Perpignan)",
+  "flag": "🇫🇷",
+  "autoload": false,
+  "country": "france",
+  "view": [
+    1.457,
+    43.69,
+    6.6
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-occitania-west/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1026052,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-occitania-west/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 821820,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-occitania-west/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 12821987,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-occitania-west/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 10863671,
+      "label": "geo"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1026052,
+      "sha256": "a1b6fcba49a5e4acfc43ab21f40c0836865cd25a4e7b1abb470d3d7f57f1a147",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-occitania-west/places.bin.gz",
+          "bytes": 341345,
+          "sha256": "a046c475f9fb2cf81998ff55edfc778c5325755c49c5678ab10fbbfe5fe67cbb"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 821820,
+      "sha256": "60f7150fe53b2e3c31c4cd77c49c7321ec11fca360c23fed70742fae971aaa8a",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-occitania-west/water.bin.gz",
+          "bytes": 253661,
+          "sha256": "65bc5b2e085aec4a6ac322dc5d196a57e96a694e941664c67be2ed64b3ddef58"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 12821987,
+      "sha256": "a73e80b50e6d939616fb5596651672b799abb3fbde9c1fa26443ae41751fca7a",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-occitania-west/addresses.bin.gz",
+          "bytes": 5712434,
+          "sha256": "2cbf9df8d6bd3b3e57f4cff1c5648fc70a97240901ed326267947304b2b0e6e4"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 10863671,
+      "sha256": "24ce0ca3f961cdc45bfb7babd1b406af3eb1ea1f7c9f64837a2158eb5b04f5e3",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-occitania-west/geo.json.gz",
+          "bytes": 3919510,
+          "sha256": "7da70a5a3ffec0421baa8b7806cef17b5dd7397821b94f3e8e2932c76bb97622"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 107025996,
+      "sha256": "f2aa29c8c5627860f551fcad332ba512a3c596fe483cf1e440a50e7475aa96f4",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-occitania-west/roads.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "f00f004649466d73b2a4fb33c2977f36ce7a91bd08d9038121d5138c04191fe1"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-occitania-west/roads.bin.gz.001",
+          "bytes": 7233305,
+          "sha256": "8fcbad8b4bffc71aadc9d33d65c905e6adda5057ba2ebc7aa87376d84f8ed0fd"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 157654768,
+      "sha256": "33dce6f5fe5af100cd3eec1dd88a69a55a2f81d1d376d8bb1fe12811dfc6136a",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-occitania-west/buildings.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "255c79eb7fdfe05b440f52f4cc00b8c9e7ce8fb55ced920ad2c178b18d932c50"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-occitania-west/buildings.bin.gz.001",
+          "bytes": 22073185,
+          "sha256": "361d2dd8fd5128852fee9fe2f05df1e90162038e63a2674319f1fe63018b9293"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 102347630,
+      "sha256": "5c378681ab630f21ebe1a24d0561327b7a897cb1a5eb049a8df8b1cd0a9df3d8",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-occitania-west/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "f95bf0bf22124f1b642a5e4261f0b45fba370e5178e99b2b774bdfaa236451f1"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-occitania-west/map.pmtiles.001",
+          "bytes": 45000000,
+          "sha256": "e04d7eb268d2a5051698373730ac77ece19b476970f4dbc66c9f1c838b728475"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-occitania-west/map.pmtiles.002",
+          "bytes": 12347630,
+          "sha256": "0ed99ea77e670a60024c46739eeaa80b4bc8fe41ab086e46714c0fea2a7134e4"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/france-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

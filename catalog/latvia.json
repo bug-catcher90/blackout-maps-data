@@ -1,0 +1,170 @@
+{
+  "id": "latvia",
+  "name": "Latvia",
+  "flag": "🇱🇻",
+  "autoload": false,
+  "view": [
+    23.994,
+    56.878,
+    5.6
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/latvia/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 650676,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/latvia/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 272872,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/latvia/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 9950419,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/latvia/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 4196146,
+      "label": "geo"
+    },
+    {
+      "key": "roads",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/latvia/roads.bin.gz",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 60062392,
+      "label": "estradas"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 650676,
+      "sha256": "bb11146660d18b1d0c98a8c87bb916554d33460dcc2b6fc675b694cbc23049a2",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/latvia/places.bin.gz",
+          "bytes": 169203,
+          "sha256": "ae90bc52a75f94ea7636d340086bb3eb4709079ee230fb00fc3c550146d9379c"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 272872,
+      "sha256": "a6d8af2d0674786db05e41dedaa072384a02a8f41b6e5b041b2ce067c4b1cd65",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/latvia/water.bin.gz",
+          "bytes": 36340,
+          "sha256": "0b8912c7e100ca3b4069ef21ebdbf10cdfc2553ecef45e669e7c2938c44cb8e8"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 9950419,
+      "sha256": "97f5df2f99c5ac38c2671648246542d51d1691fade2a9d32438e03ed1a0d1756",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/latvia/addresses.bin.gz",
+          "bytes": 4056944,
+          "sha256": "92f5e94a21eccf7187014e51f241b71a5f3aa2b84c50efc96915f68d093836b1"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 4196146,
+      "sha256": "e13d697a733006b1889e6b1200259e493b2a5a2ff86ebf50f78444af1f2e4ec3",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/latvia/geo.json.gz",
+          "bytes": 1414988,
+          "sha256": "9ca2365ab45b10f6615c18a31f7fd7da6572011b28ec6274d6cb9a5e92127fbf"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 60062392,
+      "sha256": "842b70ba1496566cc33887783b70bdd0715d89a43fdc75c634c25d354bbdd2ed",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/latvia/roads.bin.gz",
+          "bytes": 26647923,
+          "sha256": "1e8ebafcae7587ddcac8882c4c6a016326e07c8011c5780be70933ab8ca55a6d"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 29854604,
+      "sha256": "2307f4b4079aca8a17f46c48b6057d1a7551b759e0174996ddc14332abb1c516",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/latvia/buildings.bin.gz",
+          "bytes": 12563619,
+          "sha256": "39a92dfe07e916b3b305fbdc3e83bb6cc7af9ffb1d4a71fe30f1816087405850"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 69983243,
+      "sha256": "25c7dec76ab0d6778eeb3b6b77632b3b81691df60a4420a2676aefa14a6430e3",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/latvia/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "dec5da377dfe37b4f3d265a5c89d32a4d3fef81976d9cf2472e11cbb3b45a900"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/latvia/map.pmtiles.001",
+          "bytes": 24983243,
+          "sha256": "c949e19447f8bf3daff98abc2777da639ff984e604c11046548d19f9d1bb8dc9"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/latvia-latest.osm.pbf",
+    "osmTimestamp": "2026-11-24T21:21:23Z",
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

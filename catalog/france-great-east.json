@@ -1,0 +1,178 @@
+{
+  "id": "france-great-east",
+  "name": "France · Great East",
+  "flag": "🇫🇷",
+  "autoload": false,
+  "country": "france",
+  "view": [
+    5.808,
+    48.795,
+    6.4
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-great-east/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1294136,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-great-east/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 479100,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-great-east/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 8231759,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-great-east/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 14982055,
+      "label": "geo"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1294136,
+      "sha256": "7226688e116b54855015b9a8f3b1104fa655868233824968a5fdc38aff3b8f54",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-great-east/places.bin.gz",
+          "bytes": 417635,
+          "sha256": "68c06ea13a59aa72715620915f9c72dab121b5cebd902ec71154e8844a7341f2"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 479100,
+      "sha256": "dba2ef302e38175c9ea966c445559e5464331e3b4e8a3581f86f36c0d0334225",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-great-east/water.bin.gz",
+          "bytes": 131992,
+          "sha256": "3f4751ea9c87cc8944f09865eec83d46cef32b66b4a60c5ea928a059e436717a"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 8231759,
+      "sha256": "7d024d0f3c286224f95a24d255419ce519a356eb7afd287c8dd062c2a8ae10a3",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-great-east/addresses.bin.gz",
+          "bytes": 3798986,
+          "sha256": "ddffadd96a176445abe2a1647075e6de50fd92249f7a5e9eca7216fda7dfc81c"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 14982055,
+      "sha256": "3e0443ffaa84d53d1377791f9a5aeaf7f6c71e82305c06ebb80467ee59e90c6b",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-great-east/geo.json.gz",
+          "bytes": 5302643,
+          "sha256": "9bec883c240c48cafac923ba8bd4cb3240e4c7be0cf3dbeec0043c553eb81c23"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 103460960,
+      "sha256": "9ec2b4894a34de2a4d80edfd4c6bd21299d6969660b3133ea6e24c72172ef090",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-great-east/roads.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "f92c7835fd1cb644c6e923fc8021644c8ce9380f8acd1e7a7255074384606255"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-great-east/roads.bin.gz.001",
+          "bytes": 1914454,
+          "sha256": "bca785083eb7ed9a5dbb63bd8946a547f8459cef2027b7a648925f7ede40975d"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 183337740,
+      "sha256": "e14256733644bc0d5395296cf7abcd0cd3cc7e1f46f5cf49200743eaed51f0da",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-great-east/buildings.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "a2aa1b19df3107e558dc54adad8b57c8dd8d71197649eec102956be51de7c953"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-great-east/buildings.bin.gz.001",
+          "bytes": 31905140,
+          "sha256": "a4d35afd80aa139d52c1bffc136d5209cdc77b4f43208b68e343056c47a92e3e"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 119404800,
+      "sha256": "7606626f2671032e13fd9a65483fe53182874a5623a721685e4b594531a8a8a2",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-great-east/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "a6151ae65950903c4dff7e1ff2daed0bc3fbd22251144a4290a874d1e9229bc9"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-great-east/map.pmtiles.001",
+          "bytes": 45000000,
+          "sha256": "9173516d63273101f0079718c98ee0b97147c551f688014e06b121b4ee6286fd"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-great-east/map.pmtiles.002",
+          "bytes": 29404800,
+          "sha256": "3f2cc9832787ee9e913ed5bd9b9323b2c5dea8164b211d0f5d59db0daa24ef04"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/france-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

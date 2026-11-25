@@ -1,0 +1,178 @@
+{
+  "id": "germany-lower-saxony",
+  "name": "Germany · Lower Saxony & Bremen",
+  "flag": "🇩🇪",
+  "autoload": false,
+  "country": "germany",
+  "view": [
+    8.972,
+    52.716,
+    6.3
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-saxony/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 3075700,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-saxony/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 427812,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-saxony/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 79273363,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-saxony/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 8322293,
+      "label": "geo"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 3075700,
+      "sha256": "16148158e8c525ef008a530ec4fd828610cec87857696812344e9ebeb5be4b0b",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-saxony/places.bin.gz",
+          "bytes": 1000154,
+          "sha256": "e3310c0c693027a561bc6e979dd069e2e69a0a052cf31aef9666902afe461b86"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 427812,
+      "sha256": "2f293be9e00872d0abbeb038fd4c2b08354de34e4f937015ad2f21bb5181fa11",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-saxony/water.bin.gz",
+          "bytes": 99160,
+          "sha256": "54be31c9d06785a96ab48f4a2c68f9045c9ec3fc60c6d6ebb92c6733145942a6"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 79273363,
+      "sha256": "ec12530db9dd27ada2c076549cd9e64a0de0d0ed42ad19c1b2f466f6b61e8298",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-saxony/addresses.bin.gz",
+          "bytes": 31227697,
+          "sha256": "543099fbd8c8d6262bf5d7991a07c11f94cf3ade22caa0b96af4261131bc5c92"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 8322293,
+      "sha256": "dfaeee0034367d2fb743b2f332a7c70ce2f21be622fb0dc4c4a9d557e7a23c63",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-saxony/geo.json.gz",
+          "bytes": 3175965,
+          "sha256": "fc5feab367acf41dd617085cf121d93b702619d13e990746db492f9523248a19"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 146415640,
+      "sha256": "d05c68d46e5725eb97210d3bb37d088a90c105f175f96f5bde80980afe557dc8",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-saxony/roads.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "9764324c1f01120154c9f60ea478c2ee1429d5a6416d17598296e9a09a0436a7"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-saxony/roads.bin.gz.001",
+          "bytes": 17839694,
+          "sha256": "69acc1cbef2225ba7ee79dde30cffde9153b6bec9b0b18592f18e668f17e0efa"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 175167476,
+      "sha256": "0636efdfe42c02d9f76efeec1b89a9ee47363022fa8f839218cf8304d198bb1a",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-saxony/buildings.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "383558d71ee79f67f42612375a098dad910514d9d4a7010d3a3e1d5c517e2556"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-saxony/buildings.bin.gz.001",
+          "bytes": 30782079,
+          "sha256": "b823a6444d8ba83127e6e03f9409a535af4b194348bc133be49dfbcf4d86e7f1"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 124773165,
+      "sha256": "e7953ef96a2ffef0ff32439ab153f77edbbbf98d6d01e239ac3435d95d8121b2",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-saxony/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "0f48148ff75519511ac431e443b9a6e92c23555a41062b53fab54236d24e05fe"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-saxony/map.pmtiles.001",
+          "bytes": 45000000,
+          "sha256": "c1a75df5ff153bcf8c13cfc03a2fd24a2c8eca435fd928621370f443e84fcbbc"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-saxony/map.pmtiles.002",
+          "bytes": 34773165,
+          "sha256": "9464918aa3f66ee11266594a8f2411e8571729fbaeb70d08f757d86c99b9e58b"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/germany-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

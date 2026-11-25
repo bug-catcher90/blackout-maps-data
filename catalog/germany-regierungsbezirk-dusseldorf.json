@@ -1,0 +1,166 @@
+{
+  "id": "germany-regierungsbezirk-dusseldorf",
+  "name": "Germany · Düsseldorf (North Rhine-Westphalia)",
+  "flag": "🇩🇪",
+  "autoload": false,
+  "country": "germany",
+  "view": [
+    6.63,
+    51.46,
+    8.1
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-dusseldorf/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1219836,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-dusseldorf/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 147068,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-dusseldorf/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 35311023,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-dusseldorf/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 2548767,
+      "label": "geo"
+    },
+    {
+      "key": "roads",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-dusseldorf/roads.bin.gz",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 62793632,
+      "label": "estradas"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1219836,
+      "sha256": "b630b6c03fde87860ad142307b360b70042bf23ed51e4563960ccb426b555d62",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-dusseldorf/places.bin.gz",
+          "bytes": 420103,
+          "sha256": "a83fa7e0dbc994baa5cbfe50e4e4de93bc351909597cfc340435460b44848aa0"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 147068,
+      "sha256": "4a8045135c64059da8bbd0f5f7b468578ec97591271d691f1552354ab91050eb",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-dusseldorf/water.bin.gz",
+          "bytes": 44663,
+          "sha256": "e10d0c8b66932e5af43c39b31fd98dcf4806522fe2e308947541de0193cb9dec"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 35311023,
+      "sha256": "c3a22607b543e42a4164d02174cd592ebaa45b34e8a41cff6a08879dca26f54d",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-dusseldorf/addresses.bin.gz",
+          "bytes": 13703611,
+          "sha256": "0c52adef8ee45d207a49447935ed06b153394c55e5bf15d02ae36a4dad8d8e63"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 2548767,
+      "sha256": "388875fe0735f579d8bfad0b80cb4d69d6c55aac2047b56889cc4df7980d0505",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-dusseldorf/geo.json.gz",
+          "bytes": 933586,
+          "sha256": "bbf8e7d99699e654ffc089193cd335f3b3f56d1e706b041cdb6443156d286574"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 62793632,
+      "sha256": "fd00231c41e07e17f18e378d3eaf40181f2cc2729d84705de0ce705f72f0d8c3",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-dusseldorf/roads.bin.gz",
+          "bytes": 25528880,
+          "sha256": "2f51f5c6a10a25a84dd0cb6ab7217b7a84757f8f08446ad2bff09b1557da00be"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 99929760,
+      "sha256": "2a92cce23827c537172bd7576005dee3a4b8a38aabbf5461b325c74b32a2246a",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-dusseldorf/buildings.bin.gz",
+          "bytes": 40911452,
+          "sha256": "0570805d4d82410b8546dbeab3d0043c2f855740a4b1c2512f7c785b7fa62f0b"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 39630145,
+      "sha256": "49ce5f93ba727ddb026de2a48d3967ccfea9ca9fd3c534683aa9d9f20771ad58",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-dusseldorf/map.pmtiles",
+          "bytes": 39630145,
+          "sha256": "49ce5f93ba727ddb026de2a48d3967ccfea9ca9fd3c534683aa9d9f20771ad58"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/germany-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

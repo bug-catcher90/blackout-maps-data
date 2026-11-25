@@ -1,0 +1,168 @@
+{
+  "id": "italy-lombardy",
+  "name": "Italy · Lombardy",
+  "flag": "🇮🇹",
+  "autoload": false,
+  "country": "italy",
+  "view": [
+    9.964,
+    45.658,
+    7
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-lombardy/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 2224968,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-lombardy/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 1421228,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-lombardy/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 6974869,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-lombardy/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 7057675,
+      "label": "geo"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 2224968,
+      "sha256": "327e3c1e5e97192c7d38457b87ce84d626601398c6dc7c204f30092aa6551221",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-lombardy/places.bin.gz",
+          "bytes": 775154,
+          "sha256": "a419de8a5101824c76f7b17a2e505d00a29216343f0fc3963f4594826ddddfb6"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 1421228,
+      "sha256": "b10717d30e2ad52ea794084c30eadf315f568019839e30785d6b07d3fd7c0b21",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-lombardy/water.bin.gz",
+          "bytes": 383992,
+          "sha256": "e1407e3105ad2b217dad41d868140a58162ebe9ee20b6f8e26a6616368cc7eed"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 6974869,
+      "sha256": "0f42e300ba106be949afd1b99f4e2aa744054fd1a78a44e839fd30ea203f0d95",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-lombardy/addresses.bin.gz",
+          "bytes": 3119403,
+          "sha256": "e440b45f3e0749ff2000c8381a7b1c849496b1923fe44df26511d18a03421e0e"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 7057675,
+      "sha256": "a14d583adcea888f9db5b9d6e5e5cd15725d2f062aeb40459462c261654c3251",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-lombardy/geo.json.gz",
+          "bytes": 2481125,
+          "sha256": "f1609522ab5af7f73a9108efabd825f71d98321adc4dd2e38987effc9e506a56"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 120890080,
+      "sha256": "f257b1a809fb48f21f0e04ed665a7eb0cd53486df36a469ecd4d1538589d72a9",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-lombardy/roads.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "99ee74e5f45c89463dac0ab13ea03e66dfa0c1ea3033e4f7da9d31d0b2f4da9c"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-lombardy/roads.bin.gz.001",
+          "bytes": 9141647,
+          "sha256": "0f06e8d41aafa10da086349b8eeaaf8d04962d78feb5305f4659547a509a5e77"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 89201476,
+      "sha256": "9988e09ea81c8f7d4b9d7c68c7410f99241c3608b82ab82dd98a24f007b2c581",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-lombardy/buildings.bin.gz",
+          "bytes": 40662461,
+          "sha256": "7d6171729ecf40d65445999ca94911593c1b8f221116c5276966558f4a2deca0"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 82646401,
+      "sha256": "1046ba535892388ab9482307d02fff2d4da93b6fbf630f523ca18cc9c60e88c5",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-lombardy/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "0ef4c3856a37283006f6424d795db00ee4b77f7de1ac547df0ece1d1cc672942"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-lombardy/map.pmtiles.001",
+          "bytes": 37646401,
+          "sha256": "e2654aabea1ec5be785f5986db6cb41e49396884e44cd6872740fcdfeb70fb17"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/italy-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

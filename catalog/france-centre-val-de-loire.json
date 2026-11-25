@@ -1,0 +1,176 @@
+{
+  "id": "france-centre-val-de-loire",
+  "name": "France · Centre-Val de Loire",
+  "flag": "🇫🇷",
+  "autoload": false,
+  "country": "france",
+  "view": [
+    1.591,
+    47.644,
+    6.6
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-centre-val-de-loire/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 630556,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-centre-val-de-loire/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 573184,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-centre-val-de-loire/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 4945747,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-centre-val-de-loire/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 9934036,
+      "label": "geo"
+    },
+    {
+      "key": "roads",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-centre-val-de-loire/roads.bin.gz",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 57633956,
+      "label": "estradas"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 630556,
+      "sha256": "57b8eb277fb00a9a6c72ef94109b4f2effd9fa3781320106eb3d2579e51dcc43",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-centre-val-de-loire/places.bin.gz",
+          "bytes": 197465,
+          "sha256": "a548fa0c78fb59ae5e868454e13ac982250dadd3fd1ab72d1dc1f1a956af7ca7"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 573184,
+      "sha256": "6f25b559cac3c9aaca638059da8d5d1e6eca6f252c00ecba3fe7bcd9c7ed552d",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-centre-val-de-loire/water.bin.gz",
+          "bytes": 193549,
+          "sha256": "3ec0f9ee754cae66212c9733e0528a8e31e4a1ce9bda9c74992a8575ae9eaa61"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 4945747,
+      "sha256": "34bc5618ed5b4b1f90baf4ba0b9948213fbcf526ef96edbd7aa53f50d0c8c507",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-centre-val-de-loire/addresses.bin.gz",
+          "bytes": 2227804,
+          "sha256": "131745ced1a7eca245c40e09df88a6a3e9c6ab00b3d563d597828ffab8b2aab9"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 9934036,
+      "sha256": "b583cecc9bac4e8c5e9c1179a1d9831c5864ff3b56a8050f8ce4cab115422da0",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-centre-val-de-loire/geo.json.gz",
+          "bytes": 3442099,
+          "sha256": "2efea9580021cc89e94e366f45b7647f2ac59482bf69aea2b0b4af98c459a5b2"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 57633956,
+      "sha256": "e819dd5d434c9751223f2482ed5590965cd0e34161d8a276ea434be0dfe84cda",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-centre-val-de-loire/roads.bin.gz",
+          "bytes": 25938307,
+          "sha256": "e7a3f8466669c66adb38e7c623106f3be9a630578db22923b42f8c37cb4ef994"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 108759960,
+      "sha256": "1097dac6c9fe394424dfb13966c9612566554fb776e4d1785fa2df9a35f9ba7a",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-centre-val-de-loire/buildings.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "3e8e144cbc9aeb188825a3f1ee6779beddaf8e91bbc6961a65addca1f0946b2f"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-centre-val-de-loire/buildings.bin.gz.001",
+          "bytes": 1634674,
+          "sha256": "dcdb2636f2c14fe2406ab39f4a89e2ba1d488c6bb41e0cb74f73dbd742f6fb87"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 77157264,
+      "sha256": "84e4ac63793a1d10c62d4573f7818212722065f4aa9820b166130b310230bc72",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-centre-val-de-loire/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "f5a0662e12d2113916d9b4084c0b085700bc77f59a20da763f76d1d2e5fb3001"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-centre-val-de-loire/map.pmtiles.001",
+          "bytes": 32157264,
+          "sha256": "05ecf0d351b716b43a14d9779d443268449cc608bed285fa368a99595224094a"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/france-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "id": "poland-poland-east-2",
+  "name": "Poland · Lublin, Subcarpathia & Podlaskie",
+  "flag": "🇵🇱",
+  "autoload": false,
+  "country": "poland",
+  "view": [
+    22.644,
+    51.706,
+    5.6
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/poland-poland-east-2/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1690624,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/poland-poland-east-2/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 563080,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/poland-poland-east-2/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 41720283,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/poland-poland-east-2/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 2502958,
+      "label": "geo"
+    },
+    {
+      "key": "roads",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/poland-poland-east-2/roads.bin.gz",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 92077812,
+      "label": "estradas"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1690624,
+      "sha256": "8b979642f934dc3d603a96d9036d231b841376973c2ed007261f8a413bd1868e",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/poland-poland-east-2/places.bin.gz",
+          "bytes": 509004,
+          "sha256": "fa7dc9ef2966367d601225bb75b44c038f723f4df843d06e5b3abde773af8d89"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 563080,
+      "sha256": "52e543e77291cb7d07ef168378dc092bd4a46659edae41ddc1a05f97c7c75779",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/poland-poland-east-2/water.bin.gz",
+          "bytes": 129838,
+          "sha256": "475c49235c1249fbac5270cac6a3214299c7aa533495464d7e3a68b372abce26"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 41720283,
+      "sha256": "abe483985f6e22fab7250e6950e3e14200ad047a193c85335f4452008f7bc1a2",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/poland-poland-east-2/addresses.bin.gz",
+          "bytes": 17166134,
+          "sha256": "0656a66c8cae38ad8a8ffb505f01191e39526ff08988091ba57a90dd6e2b1251"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 2502958,
+      "sha256": "03cea1f61acb041c85f38af173198ee8fce4de2c6761109c6814b382ed5c1e83",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/poland-poland-east-2/geo.json.gz",
+          "bytes": 901031,
+          "sha256": "a35ec75d9c31c70534f7e47c75b0ed9014f4a28e6491e088d50101480fdbd913"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 92077812,
+      "sha256": "41947f7d548925ab2cadd0bf31f19d5be0cf853c4bb3cac7623e0acad2676300",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/poland-poland-east-2/roads.bin.gz",
+          "bytes": 39354718,
+          "sha256": "48025e807c0125741b8a0685e72178e60c9835fe7b22b6c2499893425ed86509"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 128787444,
+      "sha256": "89243537678207fad32c54cd5128f16cb42032391ebd05f5891a21f0ed38ddb6",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/poland-poland-east-2/buildings.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "284f2b39bbbe49a16cf19fe816eccde2a5697db6e9d266ed5a766583d3c3d4d0"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/poland-poland-east-2/buildings.bin.gz.001",
+          "bytes": 9715223,
+          "sha256": "a0ccf79337fb92be52aab7ef6af1288c4e6c23289ea19786106d6dcc808aeab9"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 94565950,
+      "sha256": "3775b576149dc07490260d859bdb2fb3c783831db46e71bc98b8f644a75a69f4",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/poland-poland-east-2/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "2954217287b92b03d8d8622747dc6676ff0b9badb489ff1cb11eb1702db01b76"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/poland-poland-east-2/map.pmtiles.001",
+          "bytes": 45000000,
+          "sha256": "662e73b773347836b640fc37990c4a88773394827ab86b3e6c423e390146f75d"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/poland-poland-east-2/map.pmtiles.002",
+          "bytes": 4565950,
+          "sha256": "f49e6ba827a13cbec6b21455e9de5545a61bc6788c90af8320db72de892e55f5"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/poland-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

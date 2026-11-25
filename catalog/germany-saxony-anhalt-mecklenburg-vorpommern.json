@@ -1,0 +1,171 @@
+{
+  "id": "germany-saxony-anhalt-mecklenburg-vorpommern",
+  "name": "Germany · Saxony-Anhalt & Mecklenburg-Vorpommern",
+  "flag": "🇩🇪",
+  "autoload": false,
+  "country": "germany",
+  "view": [
+    12.487,
+    52.911,
+    6
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saxony-anhalt-mecklenburg-vorpommern/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1743356,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saxony-anhalt-mecklenburg-vorpommern/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 403496,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saxony-anhalt-mecklenburg-vorpommern/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 31096172,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saxony-anhalt-mecklenburg-vorpommern/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 3738493,
+      "label": "geo"
+    },
+    {
+      "key": "roads",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saxony-anhalt-mecklenburg-vorpommern/roads.bin.gz",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 77475132,
+      "label": "estradas"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1743356,
+      "sha256": "f7fd01bc8e07da9fb6c2ac2c9edcf2c31b49f8c5c06fb5c642ce5f50417005dd",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saxony-anhalt-mecklenburg-vorpommern/places.bin.gz",
+          "bytes": 528939,
+          "sha256": "82e575c0cf63fcd6f6c8e57bc2c22d7d888bdfc51467486bd4e99dbcf375772d"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 403496,
+      "sha256": "ad127430d5fe5d291c783272616c181dd60357b9274339ff88c29effbc9ac303",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saxony-anhalt-mecklenburg-vorpommern/water.bin.gz",
+          "bytes": 75885,
+          "sha256": "f7631300d75e261aba01c103ae57c238dc39fed30e9d0d33c1d1ea69a2082d69"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 31096172,
+      "sha256": "fffbf6d8b47caaf87dea3f5c62a5b83985a3ceae00d9c4c29d866683b1e84fce",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saxony-anhalt-mecklenburg-vorpommern/addresses.bin.gz",
+          "bytes": 12427596,
+          "sha256": "6cd3deca7ac4296254dfe506d1680f2aeff36fb75570387d63867ce7ec8e8a4e"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 3738493,
+      "sha256": "4b13f19316c4bdc3f972215720d9182b0f38e0420a7af161d00989b70569a7fe",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saxony-anhalt-mecklenburg-vorpommern/geo.json.gz",
+          "bytes": 1373543,
+          "sha256": "bd86d4b8f473e08f45fc4ecbabec988a9210e41431f40d3c1049f26e0870bb6f"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 77475132,
+      "sha256": "1acf3c1d22857e5004e58e54c4e700fb9f139111c1406e1c43e266ff4162e60c",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saxony-anhalt-mecklenburg-vorpommern/roads.bin.gz",
+          "bytes": 33202026,
+          "sha256": "390e1b706722651ca9da285505e3aae7d56f5e4b16e9e6cfe12afdfd2b869a58"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 95591988,
+      "sha256": "025750ac7dc31784acdbfb14986b557b5e8ac8211bef0e78d636c98223455a9e",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saxony-anhalt-mecklenburg-vorpommern/buildings.bin.gz",
+          "bytes": 40034406,
+          "sha256": "832645de67060767ad49ef4ffcb5b7496d5a390f969054139e8d6496e62b853a"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 72981621,
+      "sha256": "77f9b9fa46358c8af89fdda69697f397566cbfec9219866484b76e6cf5fc9ba0",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saxony-anhalt-mecklenburg-vorpommern/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "a859a110e236ba75beda831044d051706fd4439200d8dc3e73b35042aa5f5be8"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saxony-anhalt-mecklenburg-vorpommern/map.pmtiles.001",
+          "bytes": 27981621,
+          "sha256": "031e10881977951107f24143028cd850a6362912abef3df87969ddf9b06252e5"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/germany-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

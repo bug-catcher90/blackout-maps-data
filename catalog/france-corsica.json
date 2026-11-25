@@ -1,0 +1,166 @@
+{
+  "id": "france-corsica",
+  "name": "France · Corsica",
+  "flag": "🇫🇷",
+  "autoload": false,
+  "country": "france",
+  "view": [
+    9.048,
+    42.181,
+    7.2
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-corsica/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 152108,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-corsica/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 116080,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-corsica/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 222670,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-corsica/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 652778,
+      "label": "geo"
+    },
+    {
+      "key": "roads",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-corsica/roads.bin.gz",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 11277068,
+      "label": "estradas"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 152108,
+      "sha256": "9d847ba1a97450d84765124fb6b45c7a6df85a68a5c809ca14e54086db0093ee",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-corsica/places.bin.gz",
+          "bytes": 55260,
+          "sha256": "886ef8b5170a9a2f9137493ec200794596c69cadd628c43ff31c7240a56a0907"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 116080,
+      "sha256": "6f5232ada62c90653d77054721c60d803d2626e14d1bb42868a287c7f090ba88",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-corsica/water.bin.gz",
+          "bytes": 36149,
+          "sha256": "b2b2d00b5b5121a2da59ca3170964969f7c19549ff35456fd234c8342420fdd3"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 222670,
+      "sha256": "bab280f5e90fbeaba02dfeacbe1c257bd13262703e0f4d52bbe9ac2221a0d4e9",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-corsica/addresses.bin.gz",
+          "bytes": 100756,
+          "sha256": "f01a49117fd7bb2740d0a56bb6847a2d6ba78b1c0d0ac66d5dcbc78af0a7e2e0"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 652778,
+      "sha256": "c522d761199cc1e6dc57d2075e8aa4a715354699bc2ee3240daec7487c0b092c",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-corsica/geo.json.gz",
+          "bytes": 235339,
+          "sha256": "b390486772e03c41fb932b63a0fe40539da541723e7fa988dfac419350226aeb"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 11277068,
+      "sha256": "1faf55b99e656d9bd308fe644b064d1a31d45f39bff1914eeaa47180540fde29",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-corsica/roads.bin.gz",
+          "bytes": 6099378,
+          "sha256": "6c0a299565861ff3a142c62bc85d0018e5a4cacb37a73b007186f2578f9c5bb2"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 12115052,
+      "sha256": "8795c875dfee6ce4bea00f4f565af5f86a9c2af379dca10f1f93f40c72adf425",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-corsica/buildings.bin.gz",
+          "bytes": 5052182,
+          "sha256": "a7388aa32b77179e461991269b5908849142aaddb7f9aa7f52f7c19c3c7b0830"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 11503853,
+      "sha256": "cb374941e6a9098cc7c94dbd64e23ab9a3ae13440b9cd284809cb86568cb0bfa",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-corsica/map.pmtiles",
+          "bytes": 11503853,
+          "sha256": "cb374941e6a9098cc7c94dbd64e23ab9a3ae13440b9cd284809cb86568cb0bfa"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/france-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "id": "lithuania",
+  "name": "Lithuania",
+  "flag": "🇱🇹",
+  "autoload": false,
+  "view": [
+    23.729,
+    55.173,
+    6.1
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/lithuania/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 859888,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/lithuania/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 312924,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/lithuania/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 31381226,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/lithuania/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 3165161,
+      "label": "geo"
+    },
+    {
+      "key": "roads",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/lithuania/roads.bin.gz",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 39469252,
+      "label": "estradas"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 859888,
+      "sha256": "81c89ef4ca16eff7a1a0f47042b64aa4992094e86127a93c9027d2314f7594b5",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/lithuania/places.bin.gz",
+          "bytes": 237530,
+          "sha256": "06e9af08e0b92c372f0f3d9b4271b119ce916ebb517c58d0c2156c6edb4a7409"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 312924,
+      "sha256": "cd7fc8c580a1dfc2623dde784e80ff069af44c4c5ed57b36e31bdbfc649b939a",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/lithuania/water.bin.gz",
+          "bytes": 80815,
+          "sha256": "80a5164b967eff1053d8c95839d2e1cf1c55b7c920954db95061e1b3faf85d23"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 31381226,
+      "sha256": "70e593448b9c142e9611d16db7ad2672737ba373c137a942c54be6b2c17d3da3",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/lithuania/addresses.bin.gz",
+          "bytes": 12879873,
+          "sha256": "1cb16ba9a4724bd7b3e9f1a4d78e5518f353c7948cde0ed21ecb6405c44cc39b"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 3165161,
+      "sha256": "5ab0997da6cda02f26ccc5f460b546d135654299254580778f5982055f35f1cc",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/lithuania/geo.json.gz",
+          "bytes": 1119143,
+          "sha256": "93885573b7919788bb023bed95b00db630156954c3747494cb03f644c4f2f038"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 39469252,
+      "sha256": "2c578f8ae920355b35237b49770aaf626bd0460e126d776b4b652a546d74e4a8",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/lithuania/roads.bin.gz",
+          "bytes": 18160958,
+          "sha256": "31b42856091f0dfbb00251baed7d803d404b02b3b11bcbca12503dfdcdedfd6a"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 78811184,
+      "sha256": "e99cb6719dc8226803ebd51dd5a5749cf8c0bd076b1b7845d2496d244f1c0a4c",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/lithuania/buildings.bin.gz",
+          "bytes": 33339828,
+          "sha256": "01f3034a87d0755910985f350983c9aa2dacd6977b5abfc3889b8585f67f1793"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 84791654,
+      "sha256": "a73083fec8a3fda32d86eeffea49f1cdd4169a74e8256897bc9064201b4f06b7",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/lithuania/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "a0a485fe9430ebc0f030ff64206cbfbd70ec8e59483e9cc1f35c2741b6e88dda"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/lithuania/map.pmtiles.001",
+          "bytes": 39791654,
+          "sha256": "d1811801aa41f85a2961fddd073326ab417a5c9d01428bfc070df15805d6d260"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/lithuania-latest.osm.pbf",
+    "osmTimestamp": "2026-11-24T21:21:23Z",
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

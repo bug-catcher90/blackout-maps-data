@@ -1,0 +1,176 @@
+{
+  "id": "belgium-flanders",
+  "name": "Belgium · Flanders",
+  "flag": "🇧🇪",
+  "autoload": false,
+  "country": "belgium",
+  "view": [
+    4.227,
+    51.096,
+    6.9
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/belgium-flanders/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1629632,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/belgium-flanders/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 126680,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/belgium-flanders/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 81703590,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/belgium-flanders/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 4894040,
+      "label": "geo"
+    },
+    {
+      "key": "roads",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/belgium-flanders/roads.bin.gz",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 85175572,
+      "label": "estradas"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1629632,
+      "sha256": "b090c436f24afca807159c0bc93e92855593f1512235bfec383eeb861c1eb550",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/belgium-flanders/places.bin.gz",
+          "bytes": 600769,
+          "sha256": "da0431e56ec52997eb8f51e41814e06f2df5d8a5478673319c795f7ee969c63b"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 126680,
+      "sha256": "a7c65c463af70e38e240056ab11ee4bab0f3192d3d62cc82d2820842b0c558db",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/belgium-flanders/water.bin.gz",
+          "bytes": 36015,
+          "sha256": "ab9584b6eec626ec59d07bd16f8f3ff789870524d265417f9bdfad6ab92dde5e"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 81703590,
+      "sha256": "2f23c4cfedd563ffb474d27bc6f2216a5b4d94cb4db10cbe96071279c7c6e29e",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/belgium-flanders/addresses.bin.gz",
+          "bytes": 31064336,
+          "sha256": "99feead33fdf95dcd0ac3614dd18f09b93935e103bbb78f0973edaaa19c503e0"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 4894040,
+      "sha256": "5ceaf753ee40b22e9658bd938663a25395267d003ce03fb04f5d1182d32ea51b",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/belgium-flanders/geo.json.gz",
+          "bytes": 1868099,
+          "sha256": "913a55e251576e8602ec072efdbdd9afd0ceb35f777ab77020df14eb045625a6"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 85175572,
+      "sha256": "ab673532687f78842a055f070fb963d729a8234d78b85e5baafc9464f968c7c6",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/belgium-flanders/roads.bin.gz",
+          "bytes": 36609656,
+          "sha256": "2fe1e5d6beaf734335e866a9b4864d54b18e46bf4a7511c01946465215ef29cf"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 208832780,
+      "sha256": "686c440a16563c01a561349f13ca7559d349115c3d0009ea829c5143456ace4a",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/belgium-flanders/buildings.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "6a0946bbdfe3f2be21d5a11f216afb298fe095dd50834799c8b1647462019705"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/belgium-flanders/buildings.bin.gz.001",
+          "bytes": 43670400,
+          "sha256": "9b54db8d562ca839a5e08476751927d137d8ae3a5427102c76565a6517008249"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 81716566,
+      "sha256": "0593163d485ef8c16dbf57ee3e2269100ef064d600fb97e7866facce0f4c480b",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/belgium-flanders/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "3fc7b54a2fbefabe5ff43c6fde29791ba02f191bfed423f57ba1f55337ca6147"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/belgium-flanders/map.pmtiles.001",
+          "bytes": 36716566,
+          "sha256": "787c39c0c64f195c28c1f6cad7d798b1242a7c0f46c59743d102463a56f58f0d"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/belgium-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

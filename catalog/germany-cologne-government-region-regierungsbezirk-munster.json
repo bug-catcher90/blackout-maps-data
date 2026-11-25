@@ -1,0 +1,176 @@
+{
+  "id": "germany-cologne-government-region-regierungsbezirk-munster",
+  "name": "Germany · Cologne & Münster (North Rhine-Westphalia)",
+  "flag": "🇩🇪",
+  "autoload": false,
+  "country": "germany",
+  "view": [
+    7.094,
+    51.399,
+    6.9
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-cologne-government-region-regierungsbezirk-munster/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1985132,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-cologne-government-region-regierungsbezirk-munster/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 303436,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-cologne-government-region-regierungsbezirk-munster/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 58688419,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-cologne-government-region-regierungsbezirk-munster/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 4849378,
+      "label": "geo"
+    },
+    {
+      "key": "roads",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-cologne-government-region-regierungsbezirk-munster/roads.bin.gz",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 95981664,
+      "label": "estradas"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1985132,
+      "sha256": "f07130b6ade1825f477bb40416d7b314b2e19a7264ce7dd65fced0f977b4195e",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-cologne-government-region-regierungsbezirk-munster/places.bin.gz",
+          "bytes": 662979,
+          "sha256": "5fe8a3485357a961a533c26cb2b40c4ed80dcc5f44af235728454dd72e8fcbb8"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 303436,
+      "sha256": "60f4b4c27345b1519f453231fd777ba4fa22756bb9d6b3824c824cfd6f8c4902",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-cologne-government-region-regierungsbezirk-munster/water.bin.gz",
+          "bytes": 83577,
+          "sha256": "9d1ffb73c59326484764cf5486dd42320da7233ce6a37efc4b81ea4bf1f4de8c"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 58688419,
+      "sha256": "27aca85b4dc34a20eaa9878ca57488986d8ea880b5594d4ef18180f788ea68b5",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-cologne-government-region-regierungsbezirk-munster/addresses.bin.gz",
+          "bytes": 22734254,
+          "sha256": "5811ac2330f505a912fe34c505c5e3ca387f032ff6683b4cb00a07bc1ad7b3e4"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 4849378,
+      "sha256": "fcd5d0558772f252607c5679378076071ad6c679d828ffa16a6cad53465d0a0a",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-cologne-government-region-regierungsbezirk-munster/geo.json.gz",
+          "bytes": 1815931,
+          "sha256": "057a84829200053de0ce744430ba3a8cd1fa953c3be7dc83b5e80371ba144b92"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 95981664,
+      "sha256": "8c7ac0dc52eb9836a43856fc3ddbf79c8a9986b83831743e4bd5d78c9a4c2118",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-cologne-government-region-regierungsbezirk-munster/roads.bin.gz",
+          "bytes": 40804575,
+          "sha256": "5f436a0c52b86dc40e03b9a52e50b8aa85c553327990f06aa775e3b2c736e3ce"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 161923688,
+      "sha256": "087d5359e9634613671d952d47140109fc8b024afc5c3b62b12756e4f9cb5ff0",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-cologne-government-region-regierungsbezirk-munster/buildings.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "322e7a4dc19893106f0a6a9a1443f124b472938cbeb101a533cf3f135868e98d"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-cologne-government-region-regierungsbezirk-munster/buildings.bin.gz.001",
+          "bytes": 21763647,
+          "sha256": "1f2c788e1e971de998688a2d3083a3389d62aeb11d5f61ff279c88795e1824ab"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 75319772,
+      "sha256": "e07dec025a1f3b9ff4ffa063078aa7c20d39b9b22ed582f0c2abf5bc54037e76",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-cologne-government-region-regierungsbezirk-munster/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "fd9027d03becd29f2ef20d59718392bbdd9198d391632fc15c2ec576c864fc28"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-cologne-government-region-regierungsbezirk-munster/map.pmtiles.001",
+          "bytes": 30319772,
+          "sha256": "45f6c7e5f4936635ada0fd6f059ed53b47a0832e444b36e7b2432990d166ef67"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/germany-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

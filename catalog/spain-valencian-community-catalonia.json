@@ -1,0 +1,173 @@
+{
+  "id": "spain-valencian-community-catalonia",
+  "name": "Spain · Valencian Community & Catalonia",
+  "flag": "🇪🇸",
+  "autoload": false,
+  "country": "spain",
+  "view": [
+    0.897,
+    40.353,
+    5.7
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/spain-valencian-community-catalonia/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 3293628,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/spain-valencian-community-catalonia/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 2361644,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/spain-valencian-community-catalonia/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 17102580,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/spain-valencian-community-catalonia/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 12916281,
+      "label": "geo"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 3293628,
+      "sha256": "9f3a1c19da7fa271d483fd73695fca13383e23311790374e159bb81e3b7761f4",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/spain-valencian-community-catalonia/places.bin.gz",
+          "bytes": 1075992,
+          "sha256": "1009e64985c889d3118caa91bee3f4318c6ba7b1160c5f7b54fa9c0427f31f26"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 2361644,
+      "sha256": "48b96c0f8f63b5ccff2b963614db6111954ffc7374625ea39efb5bdad377cab2",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/spain-valencian-community-catalonia/water.bin.gz",
+          "bytes": 648851,
+          "sha256": "0367aa07f8e43837349afa5d8684c7d412a88289ee5582f35e1781dd7c96522f"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 17102580,
+      "sha256": "6cf1197633ba835879332f850753b023e0678bbdb7c35fe8088e0f9f6d6f87d9",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/spain-valencian-community-catalonia/addresses.bin.gz",
+          "bytes": 7388152,
+          "sha256": "0f9f2256d1719b16b45b49c099a2f1adb86d6f019315e524cf8da7d08869b813"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 12916281,
+      "sha256": "466f8f1e41334929ba6c80a5bb8faf58a365a8ec8ba6694c9a7a2c830698e76b",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/spain-valencian-community-catalonia/geo.json.gz",
+          "bytes": 4520944,
+          "sha256": "aa71bc32fcaeebe7e90f4518fee5e9a8d9360c81909308813cf57cbd2d94b7e4"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 178476392,
+      "sha256": "0c4f3ee264e9c101896806a239e7c89d367ffd580c91e67e8e2dc46ae045aa5e",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/spain-valencian-community-catalonia/roads.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "61efcc52987674ef8b2add31e36de7d40c63eac396c6017ee18f32c112251fa5"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/spain-valencian-community-catalonia/roads.bin.gz.001",
+          "bytes": 35633061,
+          "sha256": "57d7a1cbf086b032b1a24b114df83728f452b2144132386f2f078094e38303e1"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 86292796,
+      "sha256": "3b0137530725532dc9942100bfd81b6dd7e2fc2dbda0da35d9bca3dee45e38a5",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/spain-valencian-community-catalonia/buildings.bin.gz",
+          "bytes": 35943196,
+          "sha256": "206375f40898f7abbd15ce55f9a0d1b26cb278a7f3f403255451779295436b19"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 114924397,
+      "sha256": "9f5aa8764dc52580509239213bd3ef4f5c0ce55e91ff4e3a9349c0a5b4cc9856",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/spain-valencian-community-catalonia/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "469b013bcd2b43dbe731cecfae4456547e32e6e66c9a7f49caa2d5db8cc6f3d1"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/spain-valencian-community-catalonia/map.pmtiles.001",
+          "bytes": 45000000,
+          "sha256": "1c5beb952330956ea002825efa2a18ee905645e29f7ff8150c5461c3e2f1aab6"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/spain-valencian-community-catalonia/map.pmtiles.002",
+          "bytes": 24924397,
+          "sha256": "f1e7eab3e6e3b8cffd6ab79a248089f1ef3e9e631c13831d38ae0def08d9e5ef"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/spain-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

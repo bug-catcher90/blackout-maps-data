@@ -1,0 +1,178 @@
+{
+  "id": "italy-italy-north",
+  "name": "Italy · Veneto, Trentino-Alto Adige & Umbria",
+  "flag": "🇮🇹",
+  "autoload": false,
+  "country": "italy",
+  "view": [
+    11.823,
+    44.728,
+    5.8
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-italy-north/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 2149388,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-italy-north/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 1431272,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-italy-north/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 10635163,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-italy-north/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 7131007,
+      "label": "geo"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 2149388,
+      "sha256": "5b3805b9fb1775ee1e96dbfd10ff470e7168d03f42f4989833bd7b8df5a61fe0",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-italy-north/places.bin.gz",
+          "bytes": 738270,
+          "sha256": "842eb47a539509fe5a53dc05712c8b3107524a2fbc74d1a2b07af1d93d55a906"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 1431272,
+      "sha256": "d7e1ac16618a9973dd34d9f99160b6964dd0f27be51ac035bdbc24e588a8e481",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-italy-north/water.bin.gz",
+          "bytes": 384046,
+          "sha256": "8673ffd2d1bc03657c25e705341f7d88d323c5410fa38f87896f6b148c097f19"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 10635163,
+      "sha256": "817742747cfffb2cbd2bfe985451e175e8b012ffb1483e1e3146d0cb72b2e59f",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-italy-north/addresses.bin.gz",
+          "bytes": 4732798,
+          "sha256": "c72948f3305fc476b4c7d9303de5b0029cd7f125330bda61ac3a26b1e2999b83"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 7131007,
+      "sha256": "8b13665591215a14895dc238a82230e58eebc510acf6bad5ef9dd6def259a686",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-italy-north/geo.json.gz",
+          "bytes": 2625372,
+          "sha256": "1c72eb90436cef312f7d7ab8d6b94e43bd85bc119397c38fc3b7c0a6c103830f"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 128465068,
+      "sha256": "531ec2d24a0f207a65183493e93be47350c2dee6f5c4204dd554dbf0f050333f",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-italy-north/roads.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "5328de3d585ee5ff24ec941f977990fda3b514518520acdfde19c4150fa293fc"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-italy-north/roads.bin.gz.001",
+          "bytes": 16885737,
+          "sha256": "2d8621b2b4ba856f9d16cd7886f1e57ba08a9f5475f3619afdc80321c25d7557"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 121380908,
+      "sha256": "220562baec1e9f3968074f1917b2187a7a87c2f59db88b045e3164ecd3339fa1",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-italy-north/buildings.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "ad97b274c7e328e415c410357da8f8376fd589b5db9daeec52f7bde137d54038"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-italy-north/buildings.bin.gz.001",
+          "bytes": 8514626,
+          "sha256": "b2ad8438904d4d58ec37db40a7ff63585cea554b53bd1266a33d2e85d319d9f0"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 96011129,
+      "sha256": "381ad2234ee4649be2d01a48ce96bebd7888e8ec5ef0e877a36753573581a594",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-italy-north/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "6bcfbfa7b7e6b6d58054ceefdc3c43c8899f37c8c778ae025cd5f9e1f5cb9bb7"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-italy-north/map.pmtiles.001",
+          "bytes": 45000000,
+          "sha256": "f67f1b2e98fdf110c8f2da8618152f6ba2fff8861a6b11f94e96eef35eac7f80"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-italy-north/map.pmtiles.002",
+          "bytes": 6011129,
+          "sha256": "2c775a8dcef22922adede3888d8711cd78960960c223faf8c07207b630037a91"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/italy-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

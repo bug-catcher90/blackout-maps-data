@@ -1,0 +1,168 @@
+{
+  "id": "england-north",
+  "name": "England · North (Newcastle, Yorkshire, Lancashire, Cumbria)",
+  "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+  "autoload": false,
+  "country": "england",
+  "view": [
+    -1.745,
+    54.623,
+    6.8
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-north/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1698648,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-north/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 677608,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-north/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 12198950,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-north/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 5479451,
+      "label": "geo"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1698648,
+      "sha256": "c7b46b3a6de0c691cd08908d382a1cc7df323556cdc3e6744055d11f8cd8556c",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-north/places.bin.gz",
+          "bytes": 531986,
+          "sha256": "ceea9d0acb4e8c3032a7b2dcc734c7512b271619ef9a31c4e86063ca22ba641a"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 677608,
+      "sha256": "7430964da3839d9da1ae9e879c8b7c4a4ac60c12d866cf5e279412874f4fe7fb",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-north/water.bin.gz",
+          "bytes": 123907,
+          "sha256": "a3f1a27085bdef1517a755d775ccd863b022607d2573123ed011de67377ad9e2"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 12198950,
+      "sha256": "1a71aa13d05af4df5397b9280b1f04a9641cc6bcb19dade9a2992b3fa756da2b",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-north/addresses.bin.gz",
+          "bytes": 4573264,
+          "sha256": "12c6e8fa3ca048a77069be596a1d0935acefb643d7fd740a5ffe1c7e68f24ed3"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 5479451,
+      "sha256": "57a2a2be0f4336ec14a11121ca3e7d68fdc780e302be5060f5631873ce59031d",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-north/geo.json.gz",
+          "bytes": 1972938,
+          "sha256": "f862a920346c11458d3d82b91e27558ed2673394aabd1b6af6658429c6aeadcd"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 106139268,
+      "sha256": "852093c44bc8543ab072743a178e5c74eb7e6a2c5b67b4b5af0e62ccb4c3a02e",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-north/roads.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "88466775b445a9642b6a88c3b6966f2a1e40e9ed48c780ec06714d843ecc3033"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-north/roads.bin.gz.001",
+          "bytes": 1571554,
+          "sha256": "2804bab33af08ec4d9fd9ec3f8d93caf4643c27abab0a49eba528d52420ef24b"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 68477280,
+      "sha256": "2d4c0070dc680afe9db1bd7f185b22189e0e7e86e7808e9d1815c3603232b9f7",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-north/buildings.bin.gz",
+          "bytes": 26663894,
+          "sha256": "9d3a975cd88cd0f45e3b9ce744b13decb0655fe1b3c8c701fa8ab781fd2f61f9"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 74605786,
+      "sha256": "e95e012961a4d436e73f80e2d3bf36803b3700b2828450fe6eb7bb531f6ff869",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-north/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "bd8100267597a70ccef1a49f048aacd64fd95ae2db8f98bccc5b861909590ee4"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-north/map.pmtiles.001",
+          "bytes": 29605786,
+          "sha256": "dcaf6d32afb398bbcb623ea1955ba5eff2f62d59b27e685d7a3f272eda617675"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/united-kingdom/england-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

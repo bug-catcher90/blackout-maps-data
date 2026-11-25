@@ -1,0 +1,178 @@
+{
+  "id": "france-nouvelle-aquitaine-south-west",
+  "name": "France · Nouvelle-Aquitaine South-West (Bordeaux, Poitou)",
+  "flag": "🇫🇷",
+  "autoload": false,
+  "country": "france",
+  "view": [
+    -0.422,
+    44.943,
+    5.9
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-nouvelle-aquitaine-south-west/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1256032,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-nouvelle-aquitaine-south-west/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 565724,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-nouvelle-aquitaine-south-west/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 13301225,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-nouvelle-aquitaine-south-west/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 11680414,
+      "label": "geo"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1256032,
+      "sha256": "4de9089c4f73fa97cb15c3970521ffa00c0b8d975fab516e047159142203270f",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-nouvelle-aquitaine-south-west/places.bin.gz",
+          "bytes": 414360,
+          "sha256": "0dc42d37ec6f244c1076dc8d77ff5909f89f8db235737c6fd2a09f1147d6ab2f"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 565724,
+      "sha256": "7d5b6cec090007a3901b771633122f355f3651212aa72e1c46abccdc580d54f7",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-nouvelle-aquitaine-south-west/water.bin.gz",
+          "bytes": 146269,
+          "sha256": "0413b71c34e276d0412be85915df56967b7adc8bb7821bb0db8e56e4c4776c4c"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 13301225,
+      "sha256": "17c822d0522c8e09998cb9d38f66625272f270e1e228c01e28cb7843ff638d61",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-nouvelle-aquitaine-south-west/addresses.bin.gz",
+          "bytes": 6221279,
+          "sha256": "750a521f8b5f66956da6eddff0400d4c34b7021ccbb51aa6da87acaa03c5a998"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 11680414,
+      "sha256": "7fc695cd460e0f61754fec62f5037d584140c90ad761138501787dea55a63c34",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-nouvelle-aquitaine-south-west/geo.json.gz",
+          "bytes": 4061419,
+          "sha256": "d19c7d324dd29e41cc10d4ff1a67b89c15bac54b244a3fe9841e8734a8de5c60"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 98774456,
+      "sha256": "bed618a0b8423adc057855df7945d5dbc23a32249ae7adf07aff9edd3a0a71ca",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-nouvelle-aquitaine-south-west/roads.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "2e8e7f08bfee44ac80b03f4f695dbb6aec0ee6cee5104b3de397d55bd7f1b340"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-nouvelle-aquitaine-south-west/roads.bin.gz.001",
+          "bytes": 866010,
+          "sha256": "5ca52cc496138626258ae2980c6d1fdaff2e526d9a1d3815c0aa9808bb1ea7ed"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 188409312,
+      "sha256": "080ac90c437065bba340bf376b36f6ec9d631eda635d543e2244ec46fef9125f",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-nouvelle-aquitaine-south-west/buildings.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "46bd1191ff1bc3236b106950fe36bd6da03a5b8550507df26d97685a81c49439"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-nouvelle-aquitaine-south-west/buildings.bin.gz.001",
+          "bytes": 35213272,
+          "sha256": "6d8d3c7558b7b2e4e57137e8cac7e6a5368bb9d3afdcb7681a592174df72e0c9"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 101326466,
+      "sha256": "3e831dbb0935158f47b8e7259f029c900f6f51189d521abdc209fdd4d413a702",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-nouvelle-aquitaine-south-west/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "3ca3fa64f607289922b6f37766bce569afa0a4a93e9335cb0d1da3509d43151a"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-nouvelle-aquitaine-south-west/map.pmtiles.001",
+          "bytes": 45000000,
+          "sha256": "551b965ea43857c403fc446c764ce915cf74a28a1b731085296c9f9b9b51f1a7"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-nouvelle-aquitaine-south-west/map.pmtiles.002",
+          "bytes": 11326466,
+          "sha256": "f158974e189dc1df160ab3c87edd132df1e8fa72039dc9851df18b5c671576aa"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/france-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

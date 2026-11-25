@@ -1,0 +1,173 @@
+{
+  "id": "germany-schleswig-holstein-hamburg-thuringia",
+  "name": "Germany · Schleswig-Holstein, Hamburg & Thuringia",
+  "flag": "🇩🇪",
+  "autoload": false,
+  "country": "germany",
+  "view": [
+    10.088,
+    52.652,
+    5.7
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-schleswig-holstein-hamburg-thuringia/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 2642812,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-schleswig-holstein-hamburg-thuringia/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 501288,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-schleswig-holstein-hamburg-thuringia/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 45674580,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-schleswig-holstein-hamburg-thuringia/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 5066442,
+      "label": "geo"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 2642812,
+      "sha256": "7f8bfc58f8485b3da89a4fb0eb43e91ac550f108feab1ef8a884c845b2c9b556",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-schleswig-holstein-hamburg-thuringia/places.bin.gz",
+          "bytes": 822869,
+          "sha256": "d4c3b7ad61ff5de1dcb3a63bedd2e6e85aba1e50281e75f1a0ff48ec2fb0f1e3"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 501288,
+      "sha256": "d87cdcf6bc973b2cc1688690ebdd64add55ae265b88121ee3ce93fd04d1ea666",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-schleswig-holstein-hamburg-thuringia/water.bin.gz",
+          "bytes": 106863,
+          "sha256": "6e2720e3193056138808824c7827a87815d32f50ca75341b4e173722c2effda0"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 45674580,
+      "sha256": "a8c6b609bf87c7a65bd1a41eed45e35971d3c4b50dc5ad085f897fab235f6d63",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-schleswig-holstein-hamburg-thuringia/addresses.bin.gz",
+          "bytes": 17841089,
+          "sha256": "7ef18d97c1661bdb437d96795ceeb6a4529497f20f2c6a81a03166ae0e82ae30"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 5066442,
+      "sha256": "5f14c03af164eeff4be5b332fa8872de61cd75129bf8d20242b4fe92af69043d",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-schleswig-holstein-hamburg-thuringia/geo.json.gz",
+          "bytes": 1927701,
+          "sha256": "552dbf9f7e2b8f472e52a4b04f415b8eb68011cca5b7bc2ef027f2096505091e"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 111403824,
+      "sha256": "7ed3416686594e3bc4e974df9889beb915f0110ce54f847b6749a1c1f051889a",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-schleswig-holstein-hamburg-thuringia/roads.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "0de7a8fd82850cea8150053a9530b439852d04617bfb2f0b2dcedd7f71804dfe"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-schleswig-holstein-hamburg-thuringia/roads.bin.gz.001",
+          "bytes": 3274941,
+          "sha256": "5ba1f0f56125dac1087ce1f934594fa0a455402984773af439f7ff9c467b2265"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 118701444,
+      "sha256": "f19b70a4b080f89debc7ff8db2765cf88e5a4eb4dc20008679eabc1c312fc37a",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-schleswig-holstein-hamburg-thuringia/buildings.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "d084c0b872e595a0637752d348a9acd8bc2d9b3bc73db0f83ba3d075dd21ef06"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-schleswig-holstein-hamburg-thuringia/buildings.bin.gz.001",
+          "bytes": 4813452,
+          "sha256": "6cc0e8e59489c4fee7876eb4772bc07aa6937d78773269748015636c3ad97f67"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 88335866,
+      "sha256": "1801f0e1397327a0faf21df750e5a0d0e10dc55d85c440b3f1ad83956cfde9bf",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-schleswig-holstein-hamburg-thuringia/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "ce7fc18b14924d5473ca8698ca930e914924398332e03e161b5858e8500e30a7"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-schleswig-holstein-hamburg-thuringia/map.pmtiles.001",
+          "bytes": 43335866,
+          "sha256": "73a20d6b39cdd0271636d78629b446369866db67a237248a45075c77fe57fa34"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/germany-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

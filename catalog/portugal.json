@@ -1,0 +1,123 @@
+{
+  "id": "portugal",
+  "name": "Portugal",
+  "flag": "🇵🇹",
+  "autoload": true,
+  "view": [
+    -18.89,
+    35.932,
+    4
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/portugal/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 2167140,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/portugal/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 909560,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/portugal/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 48597530,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/portugal/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 9609221,
+      "label": "geo"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 2167140,
+      "sha256": "4d8ae0bbd4973e848f76b1ffe7dc6376f37e20c16cd368b41fbdc1700eb450a5",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/portugal/places.bin.gz",
+          "bytes": 757666,
+          "sha256": "585576c34b245b3e4bc43af229787ea47d39875d50f5d8520f4927ec95c5b88c"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 909560,
+      "sha256": "e601d50ca32a6fda6e3c5e031c657bdefc323726a882eeed55cc02a1da89f092",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/portugal/water.bin.gz",
+          "bytes": 263925,
+          "sha256": "f734278663d9adf7da193f7f7135fc9a47fdd4ab06ec1a65d0c4b310e1b8da2e"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 48597530,
+      "sha256": "845df6bab890f55ab1f3ae7fc6016b590634fe9396c7157a173b4f1a2775cfde",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/portugal/addresses.bin.gz",
+          "bytes": 25329483,
+          "sha256": "97aa5228f8dec2a4bdc7ad51a2a078c304ba83490179610c565b92600800b518"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 9609221,
+      "sha256": "98b34f41c83824ff087c9089fc6fd23bec440db6e4c95b7d2995b1c0ecc00e3e",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/portugal/geo.json.gz",
+          "bytes": 2637007,
+          "sha256": "e3ac3ab0360b930215b33e77af3f449308e14aade991687c2bb2d28fa4cf949a"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/portugal-latest.osm.pbf",
+    "osmTimestamp": "2026-11-24T21:21:23Z",
+    "basemap": "https://build.protomaps.com/20261125.pmtiles",
+    "kept": [
+      "places",
+      "water",
+      "addresses",
+      "geo"
+    ]
+  },
+  "builtIn": [
+    "map",
+    "roads",
+    "buildings"
+  ]
+}

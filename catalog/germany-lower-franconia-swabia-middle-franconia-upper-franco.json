@@ -1,0 +1,178 @@
+{
+  "id": "germany-lower-franconia-swabia-middle-franconia-upper-franco",
+  "name": "Germany · Franconia & Swabia (Bavaria)",
+  "flag": "🇩🇪",
+  "autoload": false,
+  "country": "germany",
+  "view": [
+    10.627,
+    48.917,
+    6.3
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-franconia-swabia-middle-franconia-upper-franco/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 2555936,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-franconia-swabia-middle-franconia-upper-franco/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 550760,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-franconia-swabia-middle-franconia-upper-franco/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 42664083,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-franconia-swabia-middle-franconia-upper-franco/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 5706282,
+      "label": "geo"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 2555936,
+      "sha256": "b39b95ed912b16a7a445c05ec664aeb17b038071993aba4dfd2c83bb0dfb1455",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-franconia-swabia-middle-franconia-upper-franco/places.bin.gz",
+          "bytes": 828004,
+          "sha256": "aa6b98c456a519233ce66306d9aff6c8dd9e5126c80ac18aba7b49da68a7fb48"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 550760,
+      "sha256": "bc73425ae2c5f206593f738eecc9b15bc91c33c703363f8f93ee3140a311c31e",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-franconia-swabia-middle-franconia-upper-franco/water.bin.gz",
+          "bytes": 161991,
+          "sha256": "c874bbaad3427079c0eabaac01bcb1135cf9a42f5bae5ebc53a1c2af8305c6d5"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 42664083,
+      "sha256": "715ef32f3d5009d50b4865cea5b0c2674b9154c688677548261fb3d4c879cfc8",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-franconia-swabia-middle-franconia-upper-franco/addresses.bin.gz",
+          "bytes": 16719324,
+          "sha256": "c442401aca74cf1b25204135e281addf7c33d634dc953d68d361e97ebeac8ee4"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 5706282,
+      "sha256": "1425787384897923728f97663b9621a752d787dff0bfc367c609be875e3cd54b",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-franconia-swabia-middle-franconia-upper-franco/geo.json.gz",
+          "bytes": 2079071,
+          "sha256": "b89010d3e995aeaecfc45d12231b3bd60e3d499a3e44fb82d6744262e8277d63"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 111445908,
+      "sha256": "06f74fa245ded40ffde9ece6457b752f444734ea7519e0c950a2c5422a9c77f4",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-franconia-swabia-middle-franconia-upper-franco/roads.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "c32773bb080fbe320f6a4bcc79f87b083b04cd7f0c93227d999f27827d262fa9"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-franconia-swabia-middle-franconia-upper-franco/roads.bin.gz.001",
+          "bytes": 4605885,
+          "sha256": "7119b1eebdf66f5222c37c3f38dd7f69de600fef575b663bfaaa1a791034a7c4"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 122629896,
+      "sha256": "81cba4efe9c4fddb7880f25e26dc898d57b1f9d4c882eb7e77099796719f646c",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-franconia-swabia-middle-franconia-upper-franco/buildings.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "36c0a92f513cbb6710599c8cd3011f2cdee9da89331c2a51aa5338fff9d26561"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-franconia-swabia-middle-franconia-upper-franco/buildings.bin.gz.001",
+          "bytes": 7301003,
+          "sha256": "66a278add40c9c05451a1285a1e781ccc2f296c76708d696573c0f564036d719"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 95637229,
+      "sha256": "6044f8de6592ea5e88d71035712a87c14021687c2124df6474b5148456bdd53a",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-franconia-swabia-middle-franconia-upper-franco/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "b09d44a57cd899239195942f04953c579bf6ed383b085d620d43ce5c28a8a85c"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-franconia-swabia-middle-franconia-upper-franco/map.pmtiles.001",
+          "bytes": 45000000,
+          "sha256": "0193cecc931640431db5b8aa4746ab4e4ec13e4fd1f3966e9334ea04696d6f37"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-franconia-swabia-middle-franconia-upper-franco/map.pmtiles.002",
+          "bytes": 5637229,
+          "sha256": "d4b872ea21707a8a01b252e9218eadbb20e960c588ad206e56e7bd941da00ab8"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/germany-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

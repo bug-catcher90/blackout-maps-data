@@ -1,0 +1,170 @@
+{
+  "id": "estonia",
+  "name": "Estonia",
+  "flag": "🇪🇪",
+  "autoload": false,
+  "view": [
+    24.533,
+    58.747,
+    5.8
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/estonia/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 473348,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/estonia/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 190504,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/estonia/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 13426376,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/estonia/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 1610393,
+      "label": "geo"
+    },
+    {
+      "key": "roads",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/estonia/roads.bin.gz",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 39930100,
+      "label": "estradas"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 473348,
+      "sha256": "7ac2b733f6006d5ee59dfcdd16f30c09616abb69acf1cdb252e4c5ccdee203a3",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/estonia/places.bin.gz",
+          "bytes": 126567,
+          "sha256": "db97f6278609c01a6b62307eba338583dea0cc69f81cf80ef017d5394b5c1adf"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 190504,
+      "sha256": "45d3de8f0e02827b58c65da5d218f5af4c20fc920b0b345dfa0058e41c882057",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/estonia/water.bin.gz",
+          "bytes": 22908,
+          "sha256": "32f70890414a5e7bacc70423d199a05c7c841bdd087b9c6a1ff1eef1f0789cf0"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 13426376,
+      "sha256": "f82d909db8169d5bc48c86a4f29d453bf70152f4e02d97bb95703d0b560fec05",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/estonia/addresses.bin.gz",
+          "bytes": 4770674,
+          "sha256": "c839e31cf8f63ad1c36087ed4328972d40ba14d269b8d262f9507da965de1588"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 1610393,
+      "sha256": "516d9a967ae7489d226c6bc3d71e4d5b8ce07d596374fc54962ab232238b94b4",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/estonia/geo.json.gz",
+          "bytes": 583766,
+          "sha256": "0a4641e82d778c795cf69f816aef433491af08d8e2c0e23ebd2c5def804bd4c2"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 39930100,
+      "sha256": "9e6b58186456ba103734461547870d4e21bb66c7f763a489593bf4dc2945383a",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/estonia/roads.bin.gz",
+          "bytes": 17794273,
+          "sha256": "5d5a376a33f8fb96bd881d732570902de6f2033b3438ce32520aa99f3c0b3142"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 35832840,
+      "sha256": "e28b31e2a64572c7d597bb2eb345a71db07e3a29d1feee3f8941d5319f374334",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/estonia/buildings.bin.gz",
+          "bytes": 16788908,
+          "sha256": "551866379b8dee014c6a46daaff82e4be3934d5b3b74ba7fb8f0858ee219ed54"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 50713570,
+      "sha256": "c10c0cc91f34228695cb3a0aca3be7b49fc4fccb0521f3afc866fae73c668dd6",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/estonia/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "45875dd37240330e28b782cb7387f1802bdc4a645c5df8f78570bfcf61370c02"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/estonia/map.pmtiles.001",
+          "bytes": 5713570,
+          "sha256": "de355627d3c3ea126f634f493611359e8d85b93b8ac4dfb326ace3b216901116"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/estonia-latest.osm.pbf",
+    "osmTimestamp": "2026-11-24T21:21:23Z",
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

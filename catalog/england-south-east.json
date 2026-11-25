@@ -1,0 +1,173 @@
+{
+  "id": "england-south-east",
+  "name": "England · London & South East",
+  "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+  "autoload": false,
+  "country": "england",
+  "view": [
+    0.247,
+    51.407,
+    7.4
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-south-east/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 4379452,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-south-east/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 260068,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-south-east/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 35543551,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-south-east/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 6705661,
+      "label": "geo"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 4379452,
+      "sha256": "a368a6890bbd6751c92ba4d8d6a1cf84a0f3fad0821a9c132c4dda5f2bf94074",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-south-east/places.bin.gz",
+          "bytes": 1371430,
+          "sha256": "708052219b536c7299c8c087490f195ced1a412d2d69211f68c43d32a8bdede6"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 260068,
+      "sha256": "008a58af7b345d7a8047c1e3c3722d68d62a89240f8bd84197efd4f97f5f007f",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-south-east/water.bin.gz",
+          "bytes": 51138,
+          "sha256": "87884be42db05f5c3766459a8881e7f2f6e3d536d72d943df23bcdd63ac6a75d"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 35543551,
+      "sha256": "b472881e72a993c760bdde56f7ac4d0c617bc2e938f0b5127fbef850cf44c3cf",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-south-east/addresses.bin.gz",
+          "bytes": 13430721,
+          "sha256": "e7e9338241eff5bb6f8ef77f14951228972e5bb87ff866b44ad5b5460a0b445a"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 6705661,
+      "sha256": "95ba17ccff316d3031434218cd3b614d60f84141b7c50ce7c671da5fea03abe0",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-south-east/geo.json.gz",
+          "bytes": 2448411,
+          "sha256": "e650b24addef7e27dfb21e60995b5fef86434495c46022c42a3d99db940289d3"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 154753232,
+      "sha256": "46d11c72386928f596ac9b9c619e4b86de50cfefd32220a4437806a30feb30fc",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-south-east/roads.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "d6c65a920c2c27b22272a4777715f1522b8f58159feb84d82ff4248018997a51"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-south-east/roads.bin.gz.001",
+          "bytes": 19080152,
+          "sha256": "9bb51d4be312dcea4706ef287d719c3e028320abd1b60b7859c2d43cd775e9a6"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 117361140,
+      "sha256": "fc91874ec8d39edc4b0ec3348a7e0dd9b7c42d4c703d71c18ff05cb11d91efc3",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-south-east/buildings.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "c51af67df4f015689b9cf88cc060a7ea7a8ffcdd1d630a7511c146d71c0477c2"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-south-east/buildings.bin.gz.001",
+          "bytes": 1661186,
+          "sha256": "16c777940428baa9f3676eb9eccaf7fab2640c7cbe15f4f07852c2133d8fde57"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 78203186,
+      "sha256": "e6c2f452f936d2a0ef0fcb114ecd74d09c26dbabb5799b4810c9f4f428ed201d",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-south-east/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "63a84e3afbaf771529683f31d49b885cc8b30a34098d1c1b5645be1506232e36"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/england-south-east/map.pmtiles.001",
+          "bytes": 33203186,
+          "sha256": "912c1ecebb38fcc7d2cdda1d481d944cab3fe6bc1fa3ff0388be6181889da5d0"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/united-kingdom/england-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

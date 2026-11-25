@@ -1,0 +1,173 @@
+{
+  "id": "italy-italy-central",
+  "name": "Italy · Lazio, Abruzzo, Marche & Friuli-Venezia Giulia",
+  "flag": "🇮🇹",
+  "autoload": false,
+  "country": "italy",
+  "view": [
+    13.117,
+    43.716,
+    5.5
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-italy-central/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 2557476,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-italy-central/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 1510940,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-italy-central/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 13819786,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-italy-central/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 7013139,
+      "label": "geo"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 2557476,
+      "sha256": "159dc4d2d7bd838b3a3be944bb7c9b8f4f2314841437223f1f4748bf6c3c1ec6",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-italy-central/places.bin.gz",
+          "bytes": 854513,
+          "sha256": "002bb625b52a5c93e6cf6ca39629c632445f31e2c986f2badd7799b76e324fa4"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 1510940,
+      "sha256": "6276fee046a12bb0171496da4a571956187f661647d0f0561ff4abcbe13cdcb8",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-italy-central/water.bin.gz",
+          "bytes": 410765,
+          "sha256": "27c3b4b994546a7f78865d5eefc2014bc515bcd77bef0abf7a69d59b4aea6d86"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 13819786,
+      "sha256": "f25404e76171579e80d7bbcd034d4e7e765141a6d9b3281e430536a4ef811187",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-italy-central/addresses.bin.gz",
+          "bytes": 6233364,
+          "sha256": "135125ba959500f7ab5533a43e3128bb6192dec0e0036f8d7f60219d5abf65ff"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 7013139,
+      "sha256": "a0ab09f06bf68f8f16323b0aa1a75f9774e7b0a49f1f190d22af48e937d98bca",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-italy-central/geo.json.gz",
+          "bytes": 2517388,
+          "sha256": "58f1061ed09b133b32fef37f7d4072f88b16518833a42cb6ad79895b636d3763"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 128645480,
+      "sha256": "a8f78ab5b76b5bd4d5a4718ce50c9bad6b4ad4df7c8763a9ec40d2372629fc55",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-italy-central/roads.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "df2984fcba3b19f84baf3690c277950be7e8b6bf99be113f73fa8740ab252620"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-italy-central/roads.bin.gz.001",
+          "bytes": 15653467,
+          "sha256": "cd70d865ae83f9cd89ad7b1b6783fa9dc753903d192c8c0b45a11affaca056dd"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 93015384,
+      "sha256": "0ddc98c5b0405983a9fc67c93e340e3f1039ccf547e283ec980fc57a0b0df801",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-italy-central/buildings.bin.gz",
+          "bytes": 40565898,
+          "sha256": "c7c20e20a58c32cb2da63f3004cdf91b6fa0b9b073e133264e3a3eb6e545b7b8"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 92946220,
+      "sha256": "12abaeaaffdd0a7b436ca9cfef3f9526da80c64efbe6903c023ab7da8d9abf8f",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-italy-central/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "6ccff31f3153bfbf267e1ddbda0052a86fe6512182e61263ba2fd70146806018"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-italy-central/map.pmtiles.001",
+          "bytes": 45000000,
+          "sha256": "d2109851ef7a172554b25f6763edb7e7f3665bfebc01ab1cfdb53c2d8e96826a"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-italy-central/map.pmtiles.002",
+          "bytes": 2946220,
+          "sha256": "02232f1ccf5861f7ca9a00572baa0beea894f9334201a0fd387fdf43cc0a9902"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/italy-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

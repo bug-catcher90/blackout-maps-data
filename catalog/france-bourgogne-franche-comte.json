@@ -1,0 +1,176 @@
+{
+  "id": "france-bourgogne-franche-comte",
+  "name": "France · Bourgogne – Franche-Comté",
+  "flag": "🇫🇷",
+  "autoload": false,
+  "country": "france",
+  "view": [
+    4.995,
+    47.278,
+    6.6
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-bourgogne-franche-comte/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 787268,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-bourgogne-franche-comte/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 639540,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-bourgogne-franche-comte/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 10692295,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-bourgogne-franche-comte/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 8483700,
+      "label": "geo"
+    },
+    {
+      "key": "roads",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-bourgogne-franche-comte/roads.bin.gz",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 79323880,
+      "label": "estradas"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 787268,
+      "sha256": "fb3fbe85cb22907d427a06755b6b60395c5403b660f791cd3796fd4233dfcf3b",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-bourgogne-franche-comte/places.bin.gz",
+          "bytes": 251312,
+          "sha256": "9b36615ec152099630a42f03bd94b62244c050bceb85160b6cad907509f097de"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 639540,
+      "sha256": "985773467fd002b8a588601f35f55a2ef310bde6901dddcebce0b34fe95cc245",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-bourgogne-franche-comte/water.bin.gz",
+          "bytes": 179952,
+          "sha256": "1c2d12ccd3656957a54a767386c27f33221a54fc74540c939f41970822a041e8"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 10692295,
+      "sha256": "6daa87a63a28243d01ab4ccb09dccb73d2f9c7c23602ee5a198809cd05cd4815",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-bourgogne-franche-comte/addresses.bin.gz",
+          "bytes": 4951460,
+          "sha256": "66e6a0b9c72d77fe981006a0bff72900aa28aaa650506829816bcf4d0e51715a"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 8483700,
+      "sha256": "7917bda3adc55fe729112408a2056206b91a0b362f64fa49fe505ca9cd76bd58",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-bourgogne-franche-comte/geo.json.gz",
+          "bytes": 2991455,
+          "sha256": "08beec5636db60aef7e633bd93f3821a4431b2d0cc10c30b3544eb0fdafeed72"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 79323880,
+      "sha256": "3c3e011e937505493577943bded380e3ec60ef1ddd9845a4b38afebf7a5940e5",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-bourgogne-franche-comte/roads.bin.gz",
+          "bytes": 37886464,
+          "sha256": "04707a4aa1965ed8b6aacb48b4850b13d9601543de9696f8933a5718c212abb8"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 111855600,
+      "sha256": "588c1fe22374f85ae9782a3cd052707d958024d8b38c10b693f1f362a943efc8",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-bourgogne-franche-comte/buildings.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "35c3f0bb1cf231334257968c8a22591b642ca53da1bb25e95ec6f33b27c269fe"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-bourgogne-franche-comte/buildings.bin.gz.001",
+          "bytes": 2996719,
+          "sha256": "70761f1c4b1732da8bb4d86815227c1736528fa5abc113c882e5c86f1c7e7ed3"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 88561805,
+      "sha256": "e510eee3abb3d1fa6411d77832812c855d3e9eb154629d8557a990cbca79d66d",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-bourgogne-franche-comte/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "4da5fdd5f7fa5b7e7e0f50da0935e65fbb075a8a633aa4e81bfe989bde06636a"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-bourgogne-franche-comte/map.pmtiles.001",
+          "bytes": 43561805,
+          "sha256": "b3f2153798968a61174060956761a67beec16d9907cb7240784a4d722e351a7e"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/france-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

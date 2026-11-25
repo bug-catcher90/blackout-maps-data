@@ -1,0 +1,166 @@
+{
+  "id": "spain-balearic-islands",
+  "name": "Spain · Balearic Islands",
+  "flag": "🇪🇸",
+  "autoload": false,
+  "country": "spain",
+  "view": [
+    2.743,
+    39.368,
+    7
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/spain-balearic-islands/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 462980,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/spain-balearic-islands/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 130972,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/spain-balearic-islands/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 3442217,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/spain-balearic-islands/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 1283796,
+      "label": "geo"
+    },
+    {
+      "key": "roads",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/spain-balearic-islands/roads.bin.gz",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 16201144,
+      "label": "estradas"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 462980,
+      "sha256": "2ae1e7be02076779349547ea31e071f15a47930fccb665511b4a292a31eab98e",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/spain-balearic-islands/places.bin.gz",
+          "bytes": 156694,
+          "sha256": "17af587cbd90044a439abac2fd5256dd7a573868da7e99a1d91768dcf88b60f7"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 130972,
+      "sha256": "507344bd7aa235c0e06d266bdd4a6534aed26c7f6888100562833dcea1f6643b",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/spain-balearic-islands/water.bin.gz",
+          "bytes": 30211,
+          "sha256": "9d7cbad08dfd7fe1ca54e37a1cee6113cc73a461d8fb63027bfd6cfea3789e73"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 3442217,
+      "sha256": "6179ca7d3ee20fc70ed51b6952503a190c4e4eac5050a790b533625ac4610e50",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/spain-balearic-islands/addresses.bin.gz",
+          "bytes": 1400541,
+          "sha256": "2319767712b2d54b6c78272819335a7df593f2adeb6c6bed2328c101785663fd"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 1283796,
+      "sha256": "33c042523415eca50da4960e99b6f9a6d867818dd2175a74e7e565756a43ffec",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/spain-balearic-islands/geo.json.gz",
+          "bytes": 448759,
+          "sha256": "b3eec8b1f6fdb80f57487f7b828f1f72fa93ce36566434ab61381330797afe90"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 16201144,
+      "sha256": "3807b83ac92871e86dc3cf061bd042aa00b7ab048156f330030a404a1deeb033",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/spain-balearic-islands/roads.bin.gz",
+          "bytes": 7252751,
+          "sha256": "81dcf6f18e351e06fad5251d334bef80c34a2599913a1039ec3f6a1acd938744"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 16270440,
+      "sha256": "e568507dd6dac133b23a1f1ab1b22eb1850106ef1b6e53525754c9f133f26bef",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/spain-balearic-islands/buildings.bin.gz",
+          "bytes": 6660141,
+          "sha256": "cd70b32e3e5b838116a6a7e89aa15bf0391582ea5dc50e554eb403c75fad41d6"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 11798933,
+      "sha256": "c1e8d06f8eb72b707e2d39fea7a924f957f30172d51376abf44d2899089eac64",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/spain-balearic-islands/map.pmtiles",
+          "bytes": 11798933,
+          "sha256": "c1e8d06f8eb72b707e2d39fea7a924f957f30172d51376abf44d2899089eac64"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/spain-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

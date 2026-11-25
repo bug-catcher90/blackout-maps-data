@@ -1,0 +1,166 @@
+{
+  "id": "netherlands-north-brabant",
+  "name": "Netherlands · North Brabant",
+  "flag": "🇳🇱",
+  "autoload": false,
+  "country": "netherlands",
+  "view": [
+    5.119,
+    51.526,
+    7.8
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-north-brabant/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 483280,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-north-brabant/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 97992,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-north-brabant/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 27846060,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-north-brabant/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 2100925,
+      "label": "geo"
+    },
+    {
+      "key": "roads",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-north-brabant/roads.bin.gz",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 46814764,
+      "label": "estradas"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 483280,
+      "sha256": "24d6a3bdd3d9e2c8a10c2d03d0d592c0608840eaedabcddc7429b96c01e449ff",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-north-brabant/places.bin.gz",
+          "bytes": 183928,
+          "sha256": "13229e23e93e339958442f558f86ba13d92165d691fdfe3168b0374d44724070"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 97992,
+      "sha256": "68528f886535a99377e834689b330b437e17a3249927c1f273db9aa2ab61719e",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-north-brabant/water.bin.gz",
+          "bytes": 30362,
+          "sha256": "c2e6b72f42d099299ad7c591763cb7735ae12cf304859ae903d8d06c596957f8"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 27846060,
+      "sha256": "73c36d8dccb17189664ac7c2c1789929ac079c1173fe3f6598bd12537156e461",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-north-brabant/addresses.bin.gz",
+          "bytes": 11803556,
+          "sha256": "f9dc5311446a07cc1c72a5e28f75cf4f25c92d270c8ea76684e07d27301e40a4"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 2100925,
+      "sha256": "8ac99b2df9da9d6a7d59b622949abd11b4bee207aa8b23f4e11272e54a5d99a0",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-north-brabant/geo.json.gz",
+          "bytes": 753101,
+          "sha256": "0af06071be530bf5a9f4384256ddbde1885b1e3fdc287798afe8a89171e37e8d"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 46814764,
+      "sha256": "00fc0f403ec1bfc5c05b108be8b379118fd57418c50b7d6b022466a8976363a8",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-north-brabant/roads.bin.gz",
+          "bytes": 18368019,
+          "sha256": "e3dc86c67e9471f70ace18ba5db14945f576be248e119d9eed9bf717802a432d"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 88401912,
+      "sha256": "cdc3b1f33aa430d255db2a543a1c160eca4184374dbe073d6c0fae3004b9faf7",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-north-brabant/buildings.bin.gz",
+          "bytes": 35180835,
+          "sha256": "491fad1c97df533686bea191ac106653ef682635a04c7d18617ed13117973d75"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 31386756,
+      "sha256": "e53d5162c25a375195f32ad650be63901252fe7e5ed61b98fcdc36f793ab437e",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-north-brabant/map.pmtiles",
+          "bytes": 31386756,
+          "sha256": "e53d5162c25a375195f32ad650be63901252fe7e5ed61b98fcdc36f793ab437e"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/netherlands-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

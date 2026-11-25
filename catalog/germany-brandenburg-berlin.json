@@ -1,0 +1,171 @@
+{
+  "id": "germany-brandenburg-berlin",
+  "name": "Germany · Brandenburg & Berlin",
+  "flag": "🇩🇪",
+  "autoload": false,
+  "country": "germany",
+  "view": [
+    13.015,
+    52.459,
+    6.9
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-brandenburg-berlin/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 2128776,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-brandenburg-berlin/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 361732,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-brandenburg-berlin/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 34604848,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-brandenburg-berlin/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 3270010,
+      "label": "geo"
+    },
+    {
+      "key": "roads",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-brandenburg-berlin/roads.bin.gz",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 94998832,
+      "label": "estradas"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 2128776,
+      "sha256": "6fb12023d7be529f7b760bd6c0b88d7e56770148d528d9a7e567e9e9a8db259c",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-brandenburg-berlin/places.bin.gz",
+          "bytes": 688162,
+          "sha256": "1bb5979d64da01e4cbb609936670803d6c121b4278bc2c1aa77bfb3ffb3bc011"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 361732,
+      "sha256": "9d057d0dc16eb86dd1eaa2ae9cb5a3a4ca2cc0c791f55d824f14e62e1c71c09f",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-brandenburg-berlin/water.bin.gz",
+          "bytes": 89550,
+          "sha256": "92a0808cc8b2fcb5cd8930ceb1ecc82227be6645aed9afab232a70599be3c641"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 34604848,
+      "sha256": "56e91797f0423608c5adc2476f85408da4f2338ac732c62bf1321c982257ccfc",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-brandenburg-berlin/addresses.bin.gz",
+          "bytes": 13857518,
+          "sha256": "8eba7121fcdbd6519f5ed5615ae6cdc43186b7ac29da2bbd44c9ff9810b92283"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 3270010,
+      "sha256": "7189e47eb865fa528e4e871ad351874974e240ad6cf2ec4479dcd925c0da063c",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-brandenburg-berlin/geo.json.gz",
+          "bytes": 1179280,
+          "sha256": "4788c51ca9971f0658fc748bcc09087c3e268db7abd6ac19c10945bd01897609"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 94998832,
+      "sha256": "f77ae81c8a0e93690f3134c5824748505a192fc6436bc5bc679543ae4e57b7b6",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-brandenburg-berlin/roads.bin.gz",
+          "bytes": 37773061,
+          "sha256": "c0e9acb90119e8e7e461608ac0205e3dbac0d8319a32ece5ff592f339929489b"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 91589132,
+      "sha256": "0dce7a17f3b88980f8eed3a961eb6bdd2d5a70add4edf2aecf5afdaa53bd47df",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-brandenburg-berlin/buildings.bin.gz",
+          "bytes": 38888261,
+          "sha256": "d99abd6ce3b0322a1adad9f3c2c013c58114a199fb7bd72bf75f7aed8d933973"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 59318400,
+      "sha256": "a186bbe81974067a5b7bc4d2ab273b19f8db499d9044c30328fc360b7a03dd2f",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-brandenburg-berlin/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "f61452b1c33b98b430b42048aca121d6ffa713dd4dc8b408aeeddae6e48fe39b"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-brandenburg-berlin/map.pmtiles.001",
+          "bytes": 14318400,
+          "sha256": "8bd139b61943b5cfa6b0edead3a887359857630ed95e6f7c35047be870e68567"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/germany-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

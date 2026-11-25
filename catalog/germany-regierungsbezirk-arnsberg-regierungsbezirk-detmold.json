@@ -1,0 +1,176 @@
+{
+  "id": "germany-regierungsbezirk-arnsberg-regierungsbezirk-detmold",
+  "name": "Germany · Arnsberg & Detmold (North Rhine-Westphalia)",
+  "flag": "🇩🇪",
+  "autoload": false,
+  "country": "germany",
+  "view": [
+    8.282,
+    51.609,
+    7.1
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-arnsberg-regierungsbezirk-detmold/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1613212,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-arnsberg-regierungsbezirk-detmold/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 460972,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-arnsberg-regierungsbezirk-detmold/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 47583912,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-arnsberg-regierungsbezirk-detmold/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 4169533,
+      "label": "geo"
+    },
+    {
+      "key": "roads",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-arnsberg-regierungsbezirk-detmold/roads.bin.gz",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 92257908,
+      "label": "estradas"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1613212,
+      "sha256": "6c023a23bed29883876464641b070368f404c057c3a074cae515d4f8430a65ec",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-arnsberg-regierungsbezirk-detmold/places.bin.gz",
+          "bytes": 532994,
+          "sha256": "eed7cd00bacc2abd01e355fff7820e24bef7a670f95f4e13ca63fad16bfa59f3"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 460972,
+      "sha256": "d09ecca8310d1d3fde9102b68e634cd1377f2c1dc3a0a80a974e39250f954f0f",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-arnsberg-regierungsbezirk-detmold/water.bin.gz",
+          "bytes": 134922,
+          "sha256": "27eb57d85aef6518f99a3b38d0d162b4db7c47fc4dd5f03466d3a5a733ef8cff"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 47583912,
+      "sha256": "acb4e08775894696c6d6e193c532de2638ecbad4572b386941a479594c23cbf8",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-arnsberg-regierungsbezirk-detmold/addresses.bin.gz",
+          "bytes": 18412922,
+          "sha256": "d7bece96a0c6e3d5d2ae11a6947c755d6c6c7d6a2e5183ef0045d1dd3b720fa4"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 4169533,
+      "sha256": "d4e84725a990d6d2babe249aae1d6cd871448a403faf78a65c3de917eacf0d43",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-arnsberg-regierungsbezirk-detmold/geo.json.gz",
+          "bytes": 1572760,
+          "sha256": "8b09dfac6123ca22f10a4501cd9a2e290d723f7c06ba4b6edff2b8540737ad03"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 92257908,
+      "sha256": "a6d7847b73e4c3f892e2c815e838fa756c0dcec6075cdc29304d0d2def92437e",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-arnsberg-regierungsbezirk-detmold/roads.bin.gz",
+          "bytes": 39048975,
+          "sha256": "f54012f5be214721981f7e96c2f994eeada5485f0f01eee0b8e42c94a1d734b0"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 129717488,
+      "sha256": "2b7f44d51bff7fae91ad755f2d75f69033bcf862f6b181820f2c6fd24ab9c9ae",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-arnsberg-regierungsbezirk-detmold/buildings.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "e18977638ba7617263ab9f8379453767649a457fcf595092abda9fbf3f09d132"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-arnsberg-regierungsbezirk-detmold/buildings.bin.gz.001",
+          "bytes": 9415920,
+          "sha256": "9fccb528e4b7e5125120c8aac30ae3e36cf8674359d1b4f6da355182f4982c47"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 69654465,
+      "sha256": "b92bfd9f2ba238266183fc5b0f6a99c5c22dff584fa0a6e983045f94298f04fa",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-arnsberg-regierungsbezirk-detmold/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "221bebf40ca8c8e929193aef63ce3fb1c57dc5f166b7d8aff8d626bb9d5b915b"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-arnsberg-regierungsbezirk-detmold/map.pmtiles.001",
+          "bytes": 24654465,
+          "sha256": "ba15a8b0af59e91310434ca3abe2fce46cc8208b95a409554a85bad82ebf8596"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/germany-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

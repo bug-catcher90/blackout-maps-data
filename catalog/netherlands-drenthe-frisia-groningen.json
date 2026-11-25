@@ -1,0 +1,166 @@
+{
+  "id": "netherlands-drenthe-frisia-groningen",
+  "name": "Netherlands · Drenthe, Frisia & Groningen",
+  "flag": "🇳🇱",
+  "autoload": false,
+  "country": "netherlands",
+  "view": [
+    6.023,
+    53.094,
+    7.4
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-drenthe-frisia-groningen/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 372096,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-drenthe-frisia-groningen/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 96304,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-drenthe-frisia-groningen/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 19391836,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-drenthe-frisia-groningen/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 1677128,
+      "label": "geo"
+    },
+    {
+      "key": "roads",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-drenthe-frisia-groningen/roads.bin.gz",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 44042080,
+      "label": "estradas"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 372096,
+      "sha256": "a2c9db49897d8c520107928b32972d88d0e9115478e9852019e65cc97872fc46",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-drenthe-frisia-groningen/places.bin.gz",
+          "bytes": 142832,
+          "sha256": "a2fc47ce532e0e7d1ab045a8056784adbf3c31db502e3587f64db2b31013ff8a"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 96304,
+      "sha256": "2c85d7c90fc15898e93b7bd3d9660fa3a000c3ea3704aed51a70d28fbdb23fc6",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-drenthe-frisia-groningen/water.bin.gz",
+          "bytes": 32570,
+          "sha256": "58fea6be5bd2f9c93ec547bfcb1e3bddd8c0bb6d83792d14752b5a703119cb31"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 19391836,
+      "sha256": "cdc1c372fd061538b722a695353dc640d8b1046b89f69d5c66ca5557b151f5fc",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-drenthe-frisia-groningen/addresses.bin.gz",
+          "bytes": 8372373,
+          "sha256": "26dedfa0f356a5863701734e5b20e06214e2a6d81133f0415cc2ccc41f12f6d4"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 1677128,
+      "sha256": "932917dfcdceea5630fdc286b401707012d4010a55bd922ed1cc10d8aac110c3",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-drenthe-frisia-groningen/geo.json.gz",
+          "bytes": 617637,
+          "sha256": "a532aa8c394b9832a55d273748b94e79f87c571c951eb42056d65a5ae894daf5"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 44042080,
+      "sha256": "8f23f2c377c246e096fbbb3c51659715d60fe5ad1b41a6d79d545d7cb135194f",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-drenthe-frisia-groningen/roads.bin.gz",
+          "bytes": 17698039,
+          "sha256": "c92005c3d8ad26520828366e9708be6b1cbcbd33ee9fd5b87cb92e053feb8685"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 62462924,
+      "sha256": "1914d6d44bf4ed61121af20d505c7c49848aa5838a59b7e5c2b4328022fe22e2",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-drenthe-frisia-groningen/buildings.bin.gz",
+          "bytes": 24812455,
+          "sha256": "32de80789d439b37f0a806e85c8789dc7839f94d64e13fd52d7058ce2b672232"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 34409935,
+      "sha256": "5d74b1a5cd509d7562cc96a0b1a43b94d5ce94c16aef653e9550d2fe78899d19",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-drenthe-frisia-groningen/map.pmtiles",
+          "bytes": 34409935,
+          "sha256": "5d74b1a5cd509d7562cc96a0b1a43b94d5ce94c16aef653e9550d2fe78899d19"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/netherlands-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

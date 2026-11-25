@@ -1,0 +1,176 @@
+{
+  "id": "france-ile-de-france",
+  "name": "France · Ile-de-France",
+  "flag": "🇫🇷",
+  "autoload": false,
+  "country": "france",
+  "view": [
+    2.503,
+    48.681,
+    7.6
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-ile-de-france/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 2512284,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-ile-de-france/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 213976,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-ile-de-france/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 11071487,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-ile-de-france/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 6437435,
+      "label": "geo"
+    },
+    {
+      "key": "roads",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-ile-de-france/roads.bin.gz",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 113915224,
+      "label": "estradas"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 2512284,
+      "sha256": "edb4bf56aefd966245a08f09d6cb5f7e3eb401d5079cbbd4de99d4dbd75c436d",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-ile-de-france/places.bin.gz",
+          "bytes": 870843,
+          "sha256": "d93b9b44a3f63505c879f6887dfb569cb0871d01cea96065d2a3caf6a47d70bc"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 213976,
+      "sha256": "057955299363bfbbbd22dcfcd7158c64eb272e6f70b76e007827c48bee3de294",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-ile-de-france/water.bin.gz",
+          "bytes": 56321,
+          "sha256": "ed4c9290b0956190830d0f42a0c17f5041b6d0581552dc87e553863c5ce4ff0e"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 11071487,
+      "sha256": "491db2b0b33071e1b9f7808e82ec9f637d3ab5957c5619faa1997f1a753afb34",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-ile-de-france/addresses.bin.gz",
+          "bytes": 4866074,
+          "sha256": "86b0e2039bb880ed3ea387f2d4cd63ffa6c5f8c4800fa69baff757ea3bda95ae"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 6437435,
+      "sha256": "9f6a6f722a049c945903adf7bf113a8b714d84e274a3cec1aba31b31045ca984",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-ile-de-france/geo.json.gz",
+          "bytes": 2278276,
+          "sha256": "67f9f1532b2c465b9fb55eb79557e22b3dfdbb2916387476321d5ec358c323d2"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 113915224,
+      "sha256": "eb42a7a898971175e75a60151f30600d2df3f25065118b054ed7be53f4cc070c",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-ile-de-france/roads.bin.gz",
+          "bytes": 44514698,
+          "sha256": "5953d02484d15fbc38ab54662a0f52024905de7a86cbf2f78cdd798d754e16ca"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 150002996,
+      "sha256": "dcbfe635881be7c3c20d14dfedaaadc0668f41416190b41d72c54e598f3f90f8",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-ile-de-france/buildings.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "0b81792ce684c2f73572d95bc29e4e389746a6c715fd52cda8f40d11a309255e"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-ile-de-france/buildings.bin.gz.001",
+          "bytes": 18935753,
+          "sha256": "29a95a34a087082b031763638a1064b3154268c4a942b956452885baa7094596"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 55272524,
+      "sha256": "7be97faf42ffdb08ee0cd6e982d7fe50cc4bad5245987e638219f100755eba04",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-ile-de-france/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "d919d293ffbf2faa0d8445adbf5102ed9e11da984c80aeacd7e1254ca28d2c7f"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-ile-de-france/map.pmtiles.001",
+          "bytes": 10272524,
+          "sha256": "a0665fc110b5a7c1f3816c9c80536b4ed47beee8340cab9bf6d63bcfe1e429d8"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/france-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

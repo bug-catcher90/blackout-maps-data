@@ -1,0 +1,183 @@
+{
+  "id": "finland-finland-south-west",
+  "name": "Finland · South & West",
+  "flag": "🇫🇮",
+  "autoload": false,
+  "country": "finland",
+  "view": [
+    22.932,
+    61.817,
+    5.7
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/finland-finland-south-west/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1263920,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/finland-finland-south-west/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 469200,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/finland-finland-south-west/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 21114967,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/finland-finland-south-west/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 6949717,
+      "label": "geo"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1263920,
+      "sha256": "449a7dc11b2de09587941c1a152623f70d4ffff5ca348b1f21a88b0d9956202a",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/finland-finland-south-west/places.bin.gz",
+          "bytes": 350434,
+          "sha256": "b38aceb179e508c9320ee1743301b6cd772759c519be5b5f1e4c77fde9e844bf"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 469200,
+      "sha256": "c1da1f657c589d8c4d31c034957bc654b1dd629ecc2fe4e8f5796da1005bce43",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/finland-finland-south-west/water.bin.gz",
+          "bytes": 69112,
+          "sha256": "4443eeb0bfee3ab470bdbd9f5e4742c30b3839b0fcfda8f0daf0dd8a2a6a20cf"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 21114967,
+      "sha256": "29a4eba5d79df0b55e4613f69157f623929407d36a15463bd6c0f4d68bcaa177",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/finland-finland-south-west/addresses.bin.gz",
+          "bytes": 8597382,
+          "sha256": "ed4628b355d29920e425b79b18067e0af6fb76a717421ea31be8b36401a5889a"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 6949717,
+      "sha256": "0fa48256304faf668a638d2a8a87e929a86f5bcb242c65aecf8782ba1b752d7f",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/finland-finland-south-west/geo.json.gz",
+          "bytes": 2585795,
+          "sha256": "3a0f7dc3832212d6c63f099fe1515eb8504eb22647b2fbca2e64f2b7838f1387"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 167938476,
+      "sha256": "8a6d4fde5fb7f483161c7b9b71d702ea5323aff7c99d6744c1f7dfb7eb30211c",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/finland-finland-south-west/roads.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "3b474297821f64bb7069e91fa549f732860dd5ae6f6fbeea6db04308b67a6051"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/finland-finland-south-west/roads.bin.gz.001",
+          "bytes": 33765738,
+          "sha256": "652f0f2da6b362e1c19f1278c16bcc13d4ea939a9b56bbbef020a9eb4ac1e7da"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 98817372,
+      "sha256": "14b9556c4e47660ccee6a735afc59e29a6347da8503f296353dcabb6163bedf4",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/finland-finland-south-west/buildings.bin.gz",
+          "bytes": 42957073,
+          "sha256": "f05fb971e8d86d432566cd85e5b97bc6d77d91f936eced430d3f4e4fd91d0fd9"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 197088073,
+      "sha256": "23e53ef7563121e271ca7425b88d015dcc10dba5de2b70a9945f4684853a2c5e",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/finland-finland-south-west/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "a456b896ed0fd8a76fe6113642a77ae65f0f483574278157fe803677fb10f49b"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/finland-finland-south-west/map.pmtiles.001",
+          "bytes": 45000000,
+          "sha256": "d1657ae75b9f4ed9288395e8adeb4859b3c282f04c7b834bbfcacfc3306f1b95"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/finland-finland-south-west/map.pmtiles.002",
+          "bytes": 45000000,
+          "sha256": "43d6a96fc868315e68e36f205d670f875d548eb55c86573adecf03ca401b0d7c"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/finland-finland-south-west/map.pmtiles.003",
+          "bytes": 45000000,
+          "sha256": "c76626ded1bbb134ff2c833ae7127f5283485f07379631ddb9a82df32611f2c5"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/finland-finland-south-west/map.pmtiles.004",
+          "bytes": 17088073,
+          "sha256": "86a14c4c76c2b8b016b649a630e2d70613dc4d5cbb96f1cff21a0787af0a7469"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/finland-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

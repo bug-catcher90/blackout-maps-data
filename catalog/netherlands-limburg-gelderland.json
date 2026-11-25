@@ -1,0 +1,171 @@
+{
+  "id": "netherlands-limburg-gelderland",
+  "name": "Netherlands · Limburg & Gelderland",
+  "flag": "🇳🇱",
+  "autoload": false,
+  "country": "netherlands",
+  "view": [
+    5.914,
+    51.636,
+    7.2
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-limburg-gelderland/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 658668,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-limburg-gelderland/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 176412,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-limburg-gelderland/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 35906675,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-limburg-gelderland/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 2854874,
+      "label": "geo"
+    },
+    {
+      "key": "roads",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-limburg-gelderland/roads.bin.gz",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 64051048,
+      "label": "estradas"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 658668,
+      "sha256": "fc697eaf513a1c3d0602c9fc371f655aebb45932bc2f5c0a8055517a097b6d5f",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-limburg-gelderland/places.bin.gz",
+          "bytes": 247700,
+          "sha256": "b32b5f423e41dc4cc8f45792254effbe8994699510c93175ebd156824e4cdae9"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 176412,
+      "sha256": "2d2df83c13d140c71a53126a5da6c80862fe2f7248c7501ac067ad7db11ff2cf",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-limburg-gelderland/water.bin.gz",
+          "bytes": 54483,
+          "sha256": "b33728abcc20d3308ebdc904f181de4626a584fda3d15fc4c771e887c5e8e772"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 35906675,
+      "sha256": "5c574e4130fe5055ea572e1025d861b682eda2ca29389ff689a2b4e8959a153d",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-limburg-gelderland/addresses.bin.gz",
+          "bytes": 15060219,
+          "sha256": "88b59d8410b9cea18649aa141bc259a81d282c0e402ccfd8510fadf4969f4af4"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 2854874,
+      "sha256": "e36076cb4e1d3e62864789590893641d72310a6c236a0258fbb88e00adb505bb",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-limburg-gelderland/geo.json.gz",
+          "bytes": 1031338,
+          "sha256": "4a3f83c826a0d82a9d025e0d65056fff44015eac8a64a00146af94617f5eadf2"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 64051048,
+      "sha256": "374d874d10429f4e3760de56b0c6c1b690c57655c0abd779dea901cbb9bf4b49",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-limburg-gelderland/roads.bin.gz",
+          "bytes": 25935071,
+          "sha256": "0a7ce6e833f33c14932b950fe00545bf91f74860858e6ee8e861fff221d6ee44"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 110616276,
+      "sha256": "455fa3d2e5f32f686459d7ca0019cf5308501c583220f785fb70f19482cd9e81",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-limburg-gelderland/buildings.bin.gz",
+          "bytes": 44331778,
+          "sha256": "5fbf4bfe3b231afff5cd9bb460ab7e541cfbaa4148def761afda94c72b8302fb"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 46822791,
+      "sha256": "6c7e1f1e5e632a98866a7ede4fff79fe7b37aaf3e58497b05c749d931bc7b798",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-limburg-gelderland/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "304d5d3fbd3cbabacaecaa43188bd2a41ca15f741f2b1787505cf124bdc9d906"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/netherlands-limburg-gelderland/map.pmtiles.001",
+          "bytes": 1822791,
+          "sha256": "9d87efcd4f7cc36adb2f9b8e8f1c02b873f6e22a5950c0ce8a7329800d5a8e72"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/netherlands-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "id": "germany-regierungsbezirk-tubingen-regierungsbezirk-stuttgart",
+  "name": "Germany · Stuttgart & Tübingen (Baden-Württemberg)",
+  "flag": "🇩🇪",
+  "autoload": false,
+  "country": "germany",
+  "view": [
+    9.571,
+    48.685,
+    6.9
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-tubingen-regierungsbezirk-stuttgart/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1948616,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-tubingen-regierungsbezirk-stuttgart/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 349968,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-tubingen-regierungsbezirk-stuttgart/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 52099147,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-tubingen-regierungsbezirk-stuttgart/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 5643526,
+      "label": "geo"
+    },
+    {
+      "key": "roads",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-tubingen-regierungsbezirk-stuttgart/roads.bin.gz",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 94777488,
+      "label": "estradas"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1948616,
+      "sha256": "1a95c81783f703bbc7afed5eaa48f839ecb92aa34604b9ac2a33b9b30045ff6d",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-tubingen-regierungsbezirk-stuttgart/places.bin.gz",
+          "bytes": 640256,
+          "sha256": "28c0694a5307cdce9b2b9d33da83721b51c29158cf56967ea888c4ba52d1760e"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 349968,
+      "sha256": "baf4518f059c598824577d5ec2b3df8c6317d0fcf97c2ac7f79c178255bf32c1",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-tubingen-regierungsbezirk-stuttgart/water.bin.gz",
+          "bytes": 111715,
+          "sha256": "361ca60326e3ca347aad8c058ddbc11f000f15c8952837325a7f0f1bde0b8c0d"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 52099147,
+      "sha256": "dd5e51541464614fa62aad4812e10270136d4bafd348a36ab6397ca9cc2fea08",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-tubingen-regierungsbezirk-stuttgart/addresses.bin.gz",
+          "bytes": 20259364,
+          "sha256": "95d21eac98308347781e412eb4ca8aef49cbba53127777eeca3ef7047e4bbb4d"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 5643526,
+      "sha256": "41b34eef0de8b5bb638225e50b2b8338a36b30183e534539e7533e2662a2da61",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-tubingen-regierungsbezirk-stuttgart/geo.json.gz",
+          "bytes": 2053749,
+          "sha256": "52cc64086540e489c3be640a9fe095e577b56747331c58e2cc54e0057cebd7de"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 94777488,
+      "sha256": "3551f2dc260525b7002223e42599c48f7b86e3bc637d678a3c0165d398af7c2e",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-tubingen-regierungsbezirk-stuttgart/roads.bin.gz",
+          "bytes": 41056626,
+          "sha256": "e2cc6b350f5d4a5d014477a01f62ef41a6a9aab1bf21fb49c5b8ac03e009e0f1"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 104193992,
+      "sha256": "b75bf70cbf7ea4d1bfec77e8fbfb30b6141579252c519443587e6c0410ea13a0",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-tubingen-regierungsbezirk-stuttgart/buildings.bin.gz",
+          "bytes": 44324196,
+          "sha256": "f5797abe786a9d4c9529691742f3fd5e091bbdcf78e817b3aa2aa4f4e032c426"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 70968213,
+      "sha256": "ed84263f1506146f28297f278350b4b9d3d77af3246da01d325e469ec487fcc1",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-tubingen-regierungsbezirk-stuttgart/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "1d07fe01a4da2a0f9240cf8d0635e55d5913be79caed54ddf0f1a7cc91989ed6"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-tubingen-regierungsbezirk-stuttgart/map.pmtiles.001",
+          "bytes": 25968213,
+          "sha256": "5f07541ce6580c416dff8384b406b20f795d97cee0b1597bde93584b8a6a7942"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/germany-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

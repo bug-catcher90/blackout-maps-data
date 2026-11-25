@@ -1,0 +1,166 @@
+{
+  "id": "italy-apulia",
+  "name": "Italy · Apulia",
+  "flag": "🇮🇹",
+  "autoload": false,
+  "country": "italy",
+  "view": [
+    16.728,
+    41.008,
+    6.7
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-apulia/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 764236,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-apulia/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 197212,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-apulia/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 1064740,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-apulia/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 3416686,
+      "label": "geo"
+    },
+    {
+      "key": "roads",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-apulia/roads.bin.gz",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 41104460,
+      "label": "estradas"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 764236,
+      "sha256": "63780d1ff69041d4563670ffefb87f4fa0d8e5e71bc2994b59e77824c1636326",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-apulia/places.bin.gz",
+          "bytes": 255400,
+          "sha256": "7f2e44f80aed5fdbd0291b0ab5b69389ad5ec54b36a8c40b6e12788fbc8eec1f"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 197212,
+      "sha256": "9073cdccb88c5902e0a4fa0bc6e9cab5eb66518b4b8f5af3ca9dd8da7e72df6d",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-apulia/water.bin.gz",
+          "bytes": 36681,
+          "sha256": "bf11219e7ff8cbd3f56c3f6d9309d20f9e043a7c7a5a2fc0c79f2cf961d3617a"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 1064740,
+      "sha256": "5570485593bb3a6666262b6a63db389f163d926abdbda3a384cd4ab3d8a8a02b",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-apulia/addresses.bin.gz",
+          "bytes": 477734,
+          "sha256": "49282f88ce70906674f63f1cae5838fed77e8827b846cff0212b9abf1faa2dcf"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 3416686,
+      "sha256": "b21dc6c5b838c6adbdaf62fad651b0836fee4c86857553813eadfc70d820de92",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-apulia/geo.json.gz",
+          "bytes": 1140804,
+          "sha256": "68e42b423ec63c18a234b37a3770d2c902e8b5cc9ca87ba9f22ba3895ce76324"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 41104460,
+      "sha256": "411bbf72f6e33fe4e82d96308ca88c3082bd16e7c6c9d457191efde90b71da3a",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-apulia/roads.bin.gz",
+          "bytes": 17295965,
+          "sha256": "42a778be292f6f88afc3f70d01cd51c01bc81c14b89048192435d48eec649e08"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 76559340,
+      "sha256": "f70bcaece1edd0e6858a0d823247d074f211afb8dbbb1f8dded450023ef86d9b",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-apulia/buildings.bin.gz",
+          "bytes": 33094561,
+          "sha256": "5d78ec462f802bafab3479e80f22f40cff0c281802ab0281cd758a626e318610"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 30924639,
+      "sha256": "22cc5ec47e0ca9411727e14d982dfc386d7af7cf2ce8d70225274d440635c0de",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-apulia/map.pmtiles",
+          "bytes": 30924639,
+          "sha256": "22cc5ec47e0ca9411727e14d982dfc386d7af7cf2ce8d70225274d440635c0de"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/italy-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

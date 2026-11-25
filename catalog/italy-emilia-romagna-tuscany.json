@@ -1,0 +1,178 @@
+{
+  "id": "italy-emilia-romagna-tuscany",
+  "name": "Italy · Emilia-Romagna & Tuscany",
+  "flag": "🇮🇹",
+  "autoload": false,
+  "country": "italy",
+  "view": [
+    10.977,
+    43.688,
+    6.5
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-emilia-romagna-tuscany/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 2146516,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-emilia-romagna-tuscany/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 1236156,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-emilia-romagna-tuscany/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 34690156,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-emilia-romagna-tuscany/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 8328989,
+      "label": "geo"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 2146516,
+      "sha256": "1b02e10f76aea5c5c19d161d8b2457e025b8bc5464cfa806b8c485d2d3b75807",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-emilia-romagna-tuscany/places.bin.gz",
+          "bytes": 753255,
+          "sha256": "afc05affb65cfc64781134382ccea94d4ba4d5b3fff3b5ac5ffef05f179ab87a"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 1236156,
+      "sha256": "03e3db4978531e8c52b479d5e87bd15e4f624d711ab66a9ac3cbd56fca5a8130",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-emilia-romagna-tuscany/water.bin.gz",
+          "bytes": 347930,
+          "sha256": "0346d2f0ced2605bff23d32c75cd2ae55e8f0396b45ad372f352bf18d79c3e97"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 34690156,
+      "sha256": "f5abb94e01c91b687082e991ea99736121b80976bbb3fa8c23342dfc160d60a7",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-emilia-romagna-tuscany/addresses.bin.gz",
+          "bytes": 15586730,
+          "sha256": "a02e411db1ab98c5482432c36bbf4e86a1d968999dfd28a5d6b4ef1f137d8352"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 8328989,
+      "sha256": "b28a73352cc8fa210268d8194d25997332787470dbaf10e90424583ffeef3d0d",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-emilia-romagna-tuscany/geo.json.gz",
+          "bytes": 2967864,
+          "sha256": "da6b174a9d2d060830cabdc5b5d792796529087211fe7e28911fc7be832a7530"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 123661160,
+      "sha256": "7ec0f90761a16fd8ba9034fb887252458767b40ea2c5917a9cbbe7ace2c14a3b",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-emilia-romagna-tuscany/roads.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "a71551a44863909c8359031e89c464fa46ea1613fab867b9e76eda5ed9c89436"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-emilia-romagna-tuscany/roads.bin.gz.001",
+          "bytes": 14003538,
+          "sha256": "c19c381adddddff6de38d3a6018c416a7c1074be7c6eb39257c49302e8abad15"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 115592760,
+      "sha256": "b188771cf0b5118162bbd08f6985eaa8acaf3e38486cb3f09a023b01077f3717",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-emilia-romagna-tuscany/buildings.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "f4903011f330f93859ccbdc48e8bec989081b40728144d290ceb6ff0d12efbe0"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-emilia-romagna-tuscany/buildings.bin.gz.001",
+          "bytes": 6685690,
+          "sha256": "ec3870a7a9ccd3daf7f075a4dd0b5beb3f978e1a2d5926aac9de8d4cbacc1b92"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 101056115,
+      "sha256": "db268701e8de62b549533e32bb2157c2322ea9792457a99321734da45927c986",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-emilia-romagna-tuscany/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "809e2262740f867df770166872a64b9c5f752c459f6d9f8586f908bb09459387"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-emilia-romagna-tuscany/map.pmtiles.001",
+          "bytes": 45000000,
+          "sha256": "d17a77501d8c93decbdeb3985f88764a334c128656200d674d545fb3914cc02a"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/italy-emilia-romagna-tuscany/map.pmtiles.002",
+          "bytes": 11056115,
+          "sha256": "8d245cc82bcc32facbd092ef6f4656514a2cb24fc87da702c580db6554c76d9c"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/italy-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

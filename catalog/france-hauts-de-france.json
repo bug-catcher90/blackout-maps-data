@@ -1,0 +1,176 @@
+{
+  "id": "france-hauts-de-france",
+  "name": "France · Hauts-de-France",
+  "flag": "🇫🇷",
+  "autoload": false,
+  "country": "france",
+  "view": [
+    2.818,
+    49.963,
+    6.8
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-hauts-de-france/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1157032,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-hauts-de-france/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 146828,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-hauts-de-france/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 15641002,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-hauts-de-france/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 6950393,
+      "label": "geo"
+    },
+    {
+      "key": "roads",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-hauts-de-france/roads.bin.gz",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 80349684,
+      "label": "estradas"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1157032,
+      "sha256": "1966f339d5f91a3e0ff08de37068d86e1a8874c0c3e1c44e3579d2124b2ff044",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-hauts-de-france/places.bin.gz",
+          "bytes": 391539,
+          "sha256": "813f4351e3bc72ff35e11e95a936b9492d071cd7310e80391a6005dad4420e67"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 146828,
+      "sha256": "ffc623d496dd4f6ef6254c04e38fb5e2bc47765f73be468e8ce607469ba4c1e2",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-hauts-de-france/water.bin.gz",
+          "bytes": 32624,
+          "sha256": "dc20930be7017c0bfdbc9e80f15b34242eb26a093eb7bf43da387c3080c49a20"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 15641002,
+      "sha256": "aed1771bc0631a626172b8fbbb2f73956cee4076e5b692b9aa53b7a534875725",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-hauts-de-france/addresses.bin.gz",
+          "bytes": 6903200,
+          "sha256": "a4b7da5b4e99ca05a9b2a617031b6d2da124c9c994461a7fdcbb860fbb09d9cf"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 6950393,
+      "sha256": "7208788e20787dcea9a814eaad1e08d3a6f2add0fcd419c6f59dc5edd84eeb4a",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-hauts-de-france/geo.json.gz",
+          "bytes": 2486210,
+          "sha256": "6b8eb9624d8a4d9ad3dc686e6499448f492e380575e8c6c6d407f5af2d66a212"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 80349684,
+      "sha256": "f423df301d86646fe622e530d8ced5463a5716df646f9b7f5ea329f72ae15422",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-hauts-de-france/roads.bin.gz",
+          "bytes": 35381099,
+          "sha256": "4b48115760321fbe1484b4334e0f4e68e2f0d7cc207412d4901071829d5e82c1"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 202811496,
+      "sha256": "25fcf2d8966b6a91cc55aa52d554e21a58f2b370e86c4d2e715ebc3c98dccbca",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-hauts-de-france/buildings.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "a5a73b719abf57b329129c139281bbae818dacd2680a32719a876f70fcfe3736"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-hauts-de-france/buildings.bin.gz.001",
+          "bytes": 39931346,
+          "sha256": "46c60c923224e0e4a2cce8815479cd29c4fc6b9d7231b81ee5277b0b78be0c5d"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 80433244,
+      "sha256": "76abb031aa94652259e963a69da0a306cce8569b2fa2c02796c159808517eabd",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-hauts-de-france/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "5fa57efb9a69c3b89964943ba1984ae33eaa7f7c4bd8b12f0c07d4331c1243ec"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-hauts-de-france/map.pmtiles.001",
+          "bytes": 35433244,
+          "sha256": "e5f3f943124cb77da33fd56c900ec81e906893ae39d316e26b84ad7007002949"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/france-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

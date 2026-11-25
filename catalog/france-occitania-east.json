@@ -1,0 +1,171 @@
+{
+  "id": "france-occitania-east",
+  "name": "France · Occitania East (Montpellier, Nîmes)",
+  "flag": "🇫🇷",
+  "autoload": false,
+  "country": "france",
+  "view": [
+    3.343,
+    44.093,
+    7.1
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-occitania-east/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 742648,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-occitania-east/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 538744,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-occitania-east/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 4223529,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-occitania-east/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 5952927,
+      "label": "geo"
+    },
+    {
+      "key": "roads",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-occitania-east/roads.bin.gz",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 70168080,
+      "label": "estradas"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 742648,
+      "sha256": "b246cbb2e11976ef4226f3f35ecf8d94727f3356068db8902875001119df7c3d",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-occitania-east/places.bin.gz",
+          "bytes": 251533,
+          "sha256": "01b74c4189d32e468df38eb9b719a8463d03fd2acaf2894bf856edaa26bdc7e8"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 538744,
+      "sha256": "95cbcec6dee3219d4fe1c824a34d231fd023e1ebe8ea91cc74138820ff648829",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-occitania-east/water.bin.gz",
+          "bytes": 165325,
+          "sha256": "621dac3b83da989fdc6949c2cb397e97422687f50dc1a9a0ec327c24edf5e3cd"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 4223529,
+      "sha256": "aa5758c7b3ff0d56a89e081bae5edae5a67ed1bf58c5d79841ce4e974ff2dd9c",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-occitania-east/addresses.bin.gz",
+          "bytes": 1858996,
+          "sha256": "cb639faa1f7e1ac165466d1336827c9eeb2e2efc68a51e7f02136eb4df4def6c"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 5952927,
+      "sha256": "c2b88f924ccfec3bc24f541496712ad4b969fcbea6a5055ffa9cea16e27adf9a",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-occitania-east/geo.json.gz",
+          "bytes": 2110183,
+          "sha256": "2544d714b5c580117f3269c4763a97453517fa0103160dd02667ec2be3b20b87"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 70168080,
+      "sha256": "fb74f89d84093d1e1ddd6a9dd34001a484af8d37024c167230073e669079845e",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-occitania-east/roads.bin.gz",
+          "bytes": 34129306,
+          "sha256": "4065839787f0c23516fdba7794687c3465426e55633356ca03be6b2f7ed0ca0e"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 92156812,
+      "sha256": "50f98420d1a0fd9c8a8d4c72fb01a4511702596df294833d4ccdda1e0e59c993",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-occitania-east/buildings.bin.gz",
+          "bytes": 38755001,
+          "sha256": "0070fd3c75af3c1c27005946e9d3df1f0add4cf98cc1f2403f543211277a55ba"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 60479031,
+      "sha256": "4e2304650fc4a1e5aa69a95aa33cb42aad8433ad9ff7ccff5c85d0a6f0aedce3",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-occitania-east/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "df2871442d0b2722c74ee0547659fc24778d94258d61b9f38d901664e6cda15a"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-occitania-east/map.pmtiles.001",
+          "bytes": 15479031,
+          "sha256": "4a005b0730fe9f6f0d7aeeca56172ca14068bd654ec4bfb65691af40649b4102"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/france-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

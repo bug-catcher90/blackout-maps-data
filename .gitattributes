@@ -1,0 +1,4 @@
+# Map data parts: never diff, merge or convert line endings.
+catalog/*/** binary
+*.pmtiles binary
+*.gz binary

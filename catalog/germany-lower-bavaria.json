@@ -1,0 +1,166 @@
+{
+  "id": "germany-lower-bavaria",
+  "name": "Germany · Lower Bavaria",
+  "flag": "🇩🇪",
+  "autoload": false,
+  "country": "germany",
+  "view": [
+    12.718,
+    48.69,
+    7.5
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-bavaria/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 506144,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-bavaria/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 159840,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-bavaria/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 6706379,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-bavaria/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 1671976,
+      "label": "geo"
+    },
+    {
+      "key": "roads",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-bavaria/roads.bin.gz",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 27879008,
+      "label": "estradas"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 506144,
+      "sha256": "5726a033fea47573d98311783bfe3131db07428e736acc604f7194cf8c020901",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-bavaria/places.bin.gz",
+          "bytes": 171466,
+          "sha256": "5670d48c4b95909e1fb589bcd377f344244b9ea21dab2b3810076f45b3cbdbc2"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 159840,
+      "sha256": "d10f187f54a17a2f85c52bd56f11fd8595a0d37bedc70af51d1b8e92832f57de",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-bavaria/water.bin.gz",
+          "bytes": 49097,
+          "sha256": "58df80023426dd677a411992b082a5d5cfaaeb0f07ae81b2fd46e3714cf16a7b"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 6706379,
+      "sha256": "d50eb19c3e7f53d81a0cf6a85c21b7894213dead41cee7ffdb88d44ba4680586",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-bavaria/addresses.bin.gz",
+          "bytes": 2658606,
+          "sha256": "88a2e6943ca1ec37d4da4bde83c5fdd64189072acc5fcebe347e62c5a5d10f7f"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 1671976,
+      "sha256": "3f1a2651274fcd41f91e8548451de33100a99bd9d93a5b7a81ca5cce7894ace6",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-bavaria/geo.json.gz",
+          "bytes": 594247,
+          "sha256": "de2e5b9bcf781a34fd003ca60de4c076e9213f2b205a77e8be8dbe0ad5b9f57f"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 27879008,
+      "sha256": "4b41ee9cad0a384c43e48130e0d3c567d3793172a2b893919fe32826bf0f98ef",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-bavaria/roads.bin.gz",
+          "bytes": 13027410,
+          "sha256": "b4fc08fd89390f3addb58b154b3b88c0fb256d90c0a4fa644366e32d4483afe3"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 29617592,
+      "sha256": "a6f7f22ad2b8bf0b697c0da82593baf38c785e56c69723eb8435545a14ea7b5a",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-bavaria/buildings.bin.gz",
+          "bytes": 12969129,
+          "sha256": "ff0e049c590c60296f46ffd7acf1991c78f6d64d32a303529d26cc4e3f0c1c38"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 29503510,
+      "sha256": "88d65734a4f5b7d720d53a668f493a47686a8995d6c7cd0a1486e57f2cf01bf5",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-lower-bavaria/map.pmtiles",
+          "bytes": 29503510,
+          "sha256": "88d65734a4f5b7d720d53a668f493a47686a8995d6c7cd0a1486e57f2cf01bf5"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/germany-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "id": "france-auvergne-rhone-alpes-west",
+  "name": "France · Auvergne-Rhône-Alpes West (Lyon, Auvergne)",
+  "flag": "🇫🇷",
+  "autoload": false,
+  "country": "france",
+  "view": [
+    3.946,
+    45.46,
+    6.6
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-auvergne-rhone-alpes-west/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1198460,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-auvergne-rhone-alpes-west/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 778876,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-auvergne-rhone-alpes-west/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 15071403,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-auvergne-rhone-alpes-west/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 12112966,
+      "label": "geo"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1198460,
+      "sha256": "d9ed357b1c0a5151238292db219b96b7adaff99ff71dccdb499ebd01b1d097d0",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-auvergne-rhone-alpes-west/places.bin.gz",
+          "bytes": 404319,
+          "sha256": "48d1426f422d67c2e5f23119eb086af52c759ade3a9bf5dd2f76861955d2e74f"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 778876,
+      "sha256": "43c87bff99be089f8f47fb5cc4161f4b22ecfe0ea3aa67f61bd384b0b1bb4eee",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-auvergne-rhone-alpes-west/water.bin.gz",
+          "bytes": 219915,
+          "sha256": "424d2487e604b50cc758d40e66a2b1a324a49105206e5f471cdaffb68fecde25"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 15071403,
+      "sha256": "580ed0dadbd2c3a64358f9c8efaff766913d8170e416709e84cf22d18ba82d57",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-auvergne-rhone-alpes-west/addresses.bin.gz",
+          "bytes": 6951866,
+          "sha256": "79b9d3b2f2bdb19e7cc981fdc9337f92c1ba4b5c913dca19495e85d1bb0f3cc2"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 12112966,
+      "sha256": "279fc37db45b0161e3430a117c47861593aa08e2db73e5629d3ef4d1434d1aae",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-auvergne-rhone-alpes-west/geo.json.gz",
+          "bytes": 4313112,
+          "sha256": "bbb7dec1e13cfd42506ef458b50c0cc50156c887ecc970750d4d36e84cc6e819"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 124392532,
+      "sha256": "5eea3416f35821687005984ba1072cf328eba5b688fc5658a9d43af8083e927f",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-auvergne-rhone-alpes-west/roads.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "275f0d16433f8529c80437655cab7b1a60bbbef06179e1ee717e6697bb4b8a83"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-auvergne-rhone-alpes-west/roads.bin.gz.001",
+          "bytes": 14750722,
+          "sha256": "cc0a6190f1b9c45acaf79eedd6ccf3c1946c5c53058c64fd5ec5077d5f454662"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 154120604,
+      "sha256": "9c93f6b7cb2c1d5c8d69ed0ba13a7effd4482efa70d8a3d4afe79213474593a7",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-auvergne-rhone-alpes-west/buildings.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "db497b2117107296735d86585ad5a9cef4e432c942166e6c4ddcacd4dc1a1bcb"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-auvergne-rhone-alpes-west/buildings.bin.gz.001",
+          "bytes": 21337279,
+          "sha256": "996eaff75ac03be503e145ec93a40a6c7b37ac41955d0a2c9bf9766de3f34805"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 111432265,
+      "sha256": "448485b0039e0f7026bafce82909caea77a123a52e498e77f7dda9151333e616",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-auvergne-rhone-alpes-west/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "d56cae56c96fcd1f1c4779fbe4981c04e3fb0f17cdaf7d789c51ecfdcd64127f"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-auvergne-rhone-alpes-west/map.pmtiles.001",
+          "bytes": 45000000,
+          "sha256": "c8172e842c33d145e4a76d8312ca04711321f0baba8f5c02deca78655c574bca"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-auvergne-rhone-alpes-west/map.pmtiles.002",
+          "bytes": 21432265,
+          "sha256": "9048d1ca8ac261faf100ea6c1702df7595dd14d484e4fa3abaa4a38fbe0faf91"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/france-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "id": "germany-saarland-rhineland-palatinate",
+  "name": "Germany · Saarland & Rhineland-Palatinate",
+  "flag": "🇩🇪",
+  "autoload": false,
+  "country": "germany",
+  "view": [
+    7.31,
+    49.955,
+    7
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saarland-rhineland-palatinate/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1890200,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saarland-rhineland-palatinate/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 491860,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saarland-rhineland-palatinate/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 54898500,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saarland-rhineland-palatinate/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 4776565,
+      "label": "geo"
+    },
+    {
+      "key": "roads",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saarland-rhineland-palatinate/roads.bin.gz",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 83176092,
+      "label": "estradas"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1890200,
+      "sha256": "3f346f650925268c024667296903e9ceaca5cbf132740e7846aba0130afe398f",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saarland-rhineland-palatinate/places.bin.gz",
+          "bytes": 623924,
+          "sha256": "5fb32bcb153fc0f4b216eae015b68922a352e3c6a0c368b0c45abaed8b7192b7"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 491860,
+      "sha256": "b890df4d9ac4f19993d5ab1d49abdb46439102dc1e23eb1b5e58d28e15c1576a",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saarland-rhineland-palatinate/water.bin.gz",
+          "bytes": 157913,
+          "sha256": "bdb82ba5032f0409114e7625547d0179156eac31362461c6b24d5a8b61a28a75"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 54898500,
+      "sha256": "d217fefa431558438f0803f5e0c33b7b27ba91e06c981b5760c7878923ab0c26",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saarland-rhineland-palatinate/addresses.bin.gz",
+          "bytes": 21149395,
+          "sha256": "20248bcaa206b559b6cbad36e7d967b466166fd7e6205f16ee110746b5593ce9"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 4776565,
+      "sha256": "cbfdcd2136657760842f5b4b8e24bd847457551ab0779c1f250c52085c2880fa",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saarland-rhineland-palatinate/geo.json.gz",
+          "bytes": 1761406,
+          "sha256": "d45eff1f775d1f146c3e92c3cbca1de357184af7e1dc5e8e95c75bc23d3d1661"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 83176092,
+      "sha256": "d8259152d01f7f3198efa3aee0c363be311842a25c7bafe73f3f5bf720570ae2",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saarland-rhineland-palatinate/roads.bin.gz",
+          "bytes": 36975273,
+          "sha256": "ccef1a0f17eb6723801909bbd7e8d9b701b1f2df585441afc218c3496289e2ae"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 114787384,
+      "sha256": "d47b7bf8f6c1abbf9854075336493ad18f34013f53031814064f0a9dac25d33a",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saarland-rhineland-palatinate/buildings.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "bb89a2b0f48ee165c97e85b93fef67c2f9dd6c725fc3320c10a1ca6459d01d9d"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saarland-rhineland-palatinate/buildings.bin.gz.001",
+          "bytes": 3328715,
+          "sha256": "b555fea01ac6d6cd7a0d84d051d4ef39a93beaa32d1efde327bd72b4ac10388a"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 75823214,
+      "sha256": "ee487321d0a25817c9e628753a4eebe39ab931d38522a366e4ea28171b23eeae",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saarland-rhineland-palatinate/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "a42b6c10595fc0ec2a9ee7f4f38cb1f138eaac10436cfdc2847ae7a4f2bfa94e"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-saarland-rhineland-palatinate/map.pmtiles.001",
+          "bytes": 30823214,
+          "sha256": "228c705bfc31daad91abb4f81b104ad8c76998fe5d43751d9961aa4aab2fd486"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/germany-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

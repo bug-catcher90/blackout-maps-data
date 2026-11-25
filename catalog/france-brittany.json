@@ -1,0 +1,176 @@
+{
+  "id": "france-brittany",
+  "name": "France · Brittany",
+  "flag": "🇫🇷",
+  "autoload": false,
+  "country": "france",
+  "view": [
+    -3.08,
+    48.195,
+    6.6
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-brittany/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 932328,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-brittany/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 347200,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-brittany/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 10802740,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-brittany/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 8676593,
+      "label": "geo"
+    },
+    {
+      "key": "roads",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-brittany/roads.bin.gz",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 94671020,
+      "label": "estradas"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 932328,
+      "sha256": "5cbe8ea0f88c64e7df612e85a7aec28fdf6c57f80a627c3875046db8ff76e186",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-brittany/places.bin.gz",
+          "bytes": 314807,
+          "sha256": "550a5ed1a09c99e871e22e853dc74bcf29faacd8298ebc343f51590bf6f0795b"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 347200,
+      "sha256": "28570f1277582120455cb58d5b7883c7ce0d3a3d826f750ab3ef3cda0246cd06",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-brittany/water.bin.gz",
+          "bytes": 83224,
+          "sha256": "e1bba7cc4d88b5d90d48e4963a5c96b40e470f3546283adf6252709777598645"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 10802740,
+      "sha256": "cdd8172d4dc0a084aec86798d5c6502ac7a500199fcaa5e3991399b81e504fba",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-brittany/addresses.bin.gz",
+          "bytes": 4925455,
+          "sha256": "073ebcbb1bd0c7cc78e88d48e32d285d19d8cef874bf5153de0eb7140153639d"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 8676593,
+      "sha256": "68a4b130f1dd250f267898f2f2097139f4714809479be2472f58e9f64d09a697",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-brittany/geo.json.gz",
+          "bytes": 3112743,
+          "sha256": "cbd26ac5b84e790f7a48a38b092e2f30a24e8f0971d0cddbb299ddfbc0cfcb0f"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 94671020,
+      "sha256": "9dd874f17e5f292ff843874d23c6f25bc081de3ce872ec2de7334b4f4f8b84ad",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-brittany/roads.bin.gz",
+          "bytes": 43940763,
+          "sha256": "62936b7cdbe95ebfe3a8645dd9e20f472ca81bbb3cf2b604e07c0c30b757b5ce"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 135640044,
+      "sha256": "003cc25421f2d00f7439cd2d905d38229be8a1797436777918f336dd28246e96",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-brittany/buildings.bin.gz.000",
+          "bytes": 45000000,
+          "sha256": "ec0a4edbf02419c681ec55218556f20a725b9f7d548c408e5e3ad746cbc27668"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-brittany/buildings.bin.gz.001",
+          "bytes": 13838757,
+          "sha256": "54772a8d417e50bc777e411cd4f8995456b4a28bdc6f99002c778bd36b3e975e"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 81204672,
+      "sha256": "21b55f7742a9fc70015934e9e024fd8ac591b236db661994e1962c87b653dbf4",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-brittany/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "82f103e815901ddbfc127a983fe071456ce173fe560830318c11fc052f38dc9f"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/france-brittany/map.pmtiles.001",
+          "bytes": 36204672,
+          "sha256": "529767d95249f0abd2aff2e0a9c582fbee85079854fed269c1daa44f8a43b1d1"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/france-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}

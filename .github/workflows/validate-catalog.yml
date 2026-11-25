@@ -1,0 +1,67 @@
+name: Validate map packages
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    # Mondays: check that every part URL still answers with its size and CORS.
+    - cron: "17 5 * * 1"
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: "Package ids to check in full, space separated (empty: only the JSON)"
+        required: false
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      # The catalog holds gigabytes of map data, so check out only the code and
+      # the JSON entries, then fetch the parts of the packages that changed.
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /*
+            !/catalog/*/
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Check every entry, every required layer and the index
+        run: node --no-warnings scripts/validate-catalog.mjs --shallow
+
+      - name: Check that every part URL answers
+        if: github.event_name == 'schedule'
+        run: node --no-warnings scripts/validate-catalog.mjs --remote
+
+      - name: Open changed packages in full
+        if: github.event_name != 'schedule'
+        env:
+          IDS: ${{ github.event.inputs.ids }}
+        run: |
+          ids="$IDS"
+          if [ "${{ github.event_name }}" != "workflow_dispatch" ]; then
+            changed=$(git diff --name-only HEAD^1 HEAD)
+            ids=$(echo "$changed" | sed -n 's#^catalog/\([^/]*\)\(\.json\|/.*\)$#\1#p' | sort -u)
+            if echo "$changed" | grep -q '^scripts/'; then
+              # The validator or the readers changed: re-check the smallest package end to end.
+              ids="$ids northern-ireland"
+            fi
+          fi
+          entries=""
+          for id in $(echo $ids | tr ' ' '\n' | sort -u); do
+            [ "$id" = index ] && continue
+            [ -f "catalog/$id.json" ] || continue
+            git sparse-checkout add "/catalog/$id/"
+            entries="$entries catalog/$id.json"
+          done
+          [ -z "$entries" ] || node --no-warnings scripts/validate-catalog.mjs $entries

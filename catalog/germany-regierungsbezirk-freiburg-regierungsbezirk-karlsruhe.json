@@ -1,0 +1,171 @@
+{
+  "id": "germany-regierungsbezirk-freiburg-regierungsbezirk-karlsruhe",
+  "name": "Germany · Freiburg & Karlsruhe (Baden-Württemberg)",
+  "flag": "🇩🇪",
+  "autoload": false,
+  "country": "germany",
+  "view": [
+    8.558,
+    48.598,
+    6.9
+  ],
+  "files": [
+    {
+      "key": "places",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-freiburg-regierungsbezirk-karlsruhe/places.bin.gz",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1928480,
+      "label": "lugares"
+    },
+    {
+      "key": "water",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-freiburg-regierungsbezirk-karlsruhe/water.bin.gz",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 455136,
+      "label": "água"
+    },
+    {
+      "key": "addresses",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-freiburg-regierungsbezirk-karlsruhe/addresses.bin.gz",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 40362554,
+      "label": "moradas"
+    },
+    {
+      "key": "geo",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-freiburg-regierungsbezirk-karlsruhe/geo.json.gz",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 4838961,
+      "label": "geo"
+    },
+    {
+      "key": "roads",
+      "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-freiburg-regierungsbezirk-karlsruhe/roads.bin.gz",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 84887568,
+      "label": "estradas"
+    }
+  ],
+  "assets": [
+    {
+      "key": "places",
+      "file": "places.bin",
+      "gzip": true,
+      "bytes": 1928480,
+      "sha256": "8081c249e650dc41b0a60fee08a8f4b45b585159e368c9a3a059e288599180a2",
+      "label": "lugares",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-freiburg-regierungsbezirk-karlsruhe/places.bin.gz",
+          "bytes": 632710,
+          "sha256": "668492931847c7f41f5f60ff3651253c04cbc1c119a014abf679453127acfbc5"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "file": "water.bin",
+      "gzip": true,
+      "bytes": 455136,
+      "sha256": "49a904f8d63ee7420afad3d54313d71a56aaf2485565331b47e9b29e7c967967",
+      "label": "água",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-freiburg-regierungsbezirk-karlsruhe/water.bin.gz",
+          "bytes": 147093,
+          "sha256": "7b8c95bf4260c6e216408dce1250ab1dfa9d9132e39f0bab68c880f2ce84839f"
+        }
+      ]
+    },
+    {
+      "key": "addresses",
+      "file": "addresses.bin",
+      "gzip": true,
+      "bytes": 40362554,
+      "sha256": "304b514dd3bfa01587a6efc0227e0336fcc2b61895d9407976fe5c273dab5aa0",
+      "label": "moradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-freiburg-regierungsbezirk-karlsruhe/addresses.bin.gz",
+          "bytes": 15903368,
+          "sha256": "08edbb238756a1a4a64e27b888a82557cdb0daa5692dd8933d6b10ac8421d56a"
+        }
+      ]
+    },
+    {
+      "key": "geo",
+      "file": "geo.json",
+      "gzip": true,
+      "bytes": 4838961,
+      "sha256": "9b8d4cc55aa99352df38a3d49803d2f027c334e2b853917435da3f8e5305e589",
+      "label": "geo",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-freiburg-regierungsbezirk-karlsruhe/geo.json.gz",
+          "bytes": 1797918,
+          "sha256": "8554d9aefc5f72e0050a639ed54c17d3d3ea9d9e35bfeeeefb35bbe208de7ca1"
+        }
+      ]
+    },
+    {
+      "key": "roads",
+      "file": "roads.bin",
+      "gzip": true,
+      "bytes": 84887568,
+      "sha256": "9d3a02d8a76bd6bcf4a13c23077d7ffb7450772382f0f3a7c3333cc03449ed3c",
+      "label": "estradas",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-freiburg-regierungsbezirk-karlsruhe/roads.bin.gz",
+          "bytes": 36850855,
+          "sha256": "9757dc4eaadfae4059b15361acc0e528308a0ece9007ca49ad12d0c1db6fb4bf"
+        }
+      ]
+    },
+    {
+      "key": "buildings",
+      "file": "buildings.bin",
+      "gzip": true,
+      "bytes": 89932880,
+      "sha256": "ecd0090e0e12a10895406d103dc08983d352df16674098e9a801e3486d14d41b",
+      "label": "edifícios",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-freiburg-regierungsbezirk-karlsruhe/buildings.bin.gz",
+          "bytes": 38134935,
+          "sha256": "2bede1f4cfcde10d3c17df8fe909edcda2915c740372c8bf3b2a2c69dffc7a6f"
+        }
+      ]
+    },
+    {
+      "key": "map",
+      "file": "map.pmtiles",
+      "gzip": false,
+      "bytes": 67494518,
+      "sha256": "0b9e62d8f7d7f5fecfc1c82b579e122c127b3e4dd39633aa277f9ec7522164ff",
+      "label": "mapa",
+      "parts": [
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-freiburg-regierungsbezirk-karlsruhe/map.pmtiles.000",
+          "bytes": 45000000,
+          "sha256": "18f4af7db44cc87f3d026d89c83235af88b311b908c388a485ba700847ed00da"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/germany-regierungsbezirk-freiburg-regierungsbezirk-karlsruhe/map.pmtiles.001",
+          "bytes": 22494518,
+          "sha256": "bb662b4bd71b154991f05334d0d92094d687240c11e5a0f4712fe6a8d86f6b0c"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "osm": "https://download.geofabrik.de/europe/germany-latest.osm.pbf",
+    "osmTimestamp": null,
+    "basemap": "https://build.protomaps.com/20261125.pmtiles"
+  }
+}
