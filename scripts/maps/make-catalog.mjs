@@ -69,8 +69,6 @@ async function main() {
   const country = countries.find((row) => row.id === id)
   if (!country) throw new Error(`unknown country ${id}`)
   const keep = new Set(country.keep || [])
-  // Files the apps ship and the web app loads from its own URLs (only Portugal's).
-  const builtIn = new Set(country.builtIn || [])
   const base = (process.env.BASE_URL || `https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/${id}`).replace(/\/$/, "")
   const out = join(work, "out")
   const dir = join(repo, "catalog", id)
@@ -79,7 +77,6 @@ async function main() {
   const written = new Set()
   const assets = []
   for (const spec of FILES) {
-    if (builtIn.has(spec.key)) continue
     const packedName = spec.plain ? spec.file : `${spec.file}.gz`
     const kept = keep.has(spec.key)
     // Kept files are the ones already committed in catalog/<id>/, left as they are.
@@ -140,7 +137,6 @@ async function main() {
     },
   }
   if (keep.size) entry.source.kept = [...keep]
-  if (builtIn.size) entry.builtIn = [...builtIn]
   const output = join(repo, "catalog", `${id}.json`)
   writeFileSync(output, `${JSON.stringify(entry, null, 2)}\n`)
   console.error(`wrote ${output}`)

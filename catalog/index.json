@@ -11050,6 +11050,71 @@
        "sha256": "e3ac3ab0360b930215b33e77af3f449308e14aade991687c2bb2d28fa4cf949a"
       }
      ]
+    },
+    {
+     "key": "roads",
+     "file": "roads.bin",
+     "gzip": true,
+     "bytes": 170238576,
+     "sha256": "63978abd7563e33ed4489aa7e2f354b507d2a176924227467bed87a65996bf09",
+     "label": "estradas",
+     "parts": [
+      {
+       "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/portugal/roads.bin.gz.000",
+       "bytes": 45000000,
+       "sha256": "45233fee1b63d98db945333f14992bacccbda0eb0563edefc792bbe8b08b01b6"
+      },
+      {
+       "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/portugal/roads.bin.gz.001",
+       "bytes": 34048028,
+       "sha256": "1f76ff7e23a95c406260c744f579a3176d9f5a15efa266989d45401e91683c5e"
+      }
+     ]
+    },
+    {
+     "key": "buildings",
+     "file": "buildings.bin",
+     "gzip": true,
+     "bytes": 79915812,
+     "sha256": "4991284c6d4c745187868659f4fccad7d7ede7cd2e5c87f2ea16cef08e423bd2",
+     "label": "edifícios",
+     "parts": [
+      {
+       "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/portugal/buildings.bin.gz",
+       "bytes": 34466867,
+       "sha256": "2a5c7dd167b0b4339926561de03df529cdcf8b83410bc1e2df8ace9b49775da9"
+      }
+     ]
+    },
+    {
+     "key": "map",
+     "file": "map.pmtiles",
+     "gzip": false,
+     "bytes": 137800797,
+     "sha256": "b42240e0f0da6f1b5e7ab3175988a5431115fba4efeee7ca740c417a0241f6a0",
+     "label": "mapa",
+     "parts": [
+      {
+       "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/portugal/map.pmtiles.000",
+       "bytes": 45000000,
+       "sha256": "305a8408f9a9acd908a8c9a9419a75ad341d2b391758af02dde256943bf05c68"
+      },
+      {
+       "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/portugal/map.pmtiles.001",
+       "bytes": 45000000,
+       "sha256": "62d481f7f7b44d9538998267bf80d996dfa73cb7846866f2de815f88b33ee2ab"
+      },
+      {
+       "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/portugal/map.pmtiles.002",
+       "bytes": 45000000,
+       "sha256": "bbb55c90da0014bc61777ea7ddbf1ffbebc1f7598c3f0b5cc092489e5d4d8d11"
+      },
+      {
+       "url": "https://raw.githubusercontent.com/bug-catcher90/blackout-maps-data/main/catalog/portugal/map.pmtiles.003",
+       "bytes": 2800797,
+       "sha256": "d06a106c4a0a1964e8d348f0a441f8a0ac1ce72334db2e5a6ea9cd43ff30ed26"
+      }
+     ]
     }
    ],
    "source": {
@@ -11062,12 +11127,7 @@
      "addresses",
      "geo"
     ]
-   },
-   "builtIn": [
-    "map",
-    "roads",
-    "buildings"
-   ]
+   }
   },
   {
    "id": "scotland",

@@ -31,8 +31,6 @@ Every package has all seven files. The validator, and so CI, rejects a package t
 | Addresses | `addresses` | Door-number search and the nearest door |
 | Search | `geo` | Search for towns, villages and streets by name |
 
-The only exception is Portugal (`autoload: true`), whose basemap, roads and buildings ship inside the apps and are listed in `builtIn` instead.
-
 ## Size limits and the phone memory budget
 
 Two limits decide how a package is cut:
@@ -77,7 +75,6 @@ Two limits decide how a package is cut:
 | `view` | `[longitude, latitude, zoom]` the map moves to after the package is chosen. |
 | `assets` | Every file of the package, one entry per key below. This is the list current apps read. |
 | `files` | Compatibility list for the 1.0 apps, which read only single-URL files. It copies the single-part `places`, `water`, `addresses`, `geo` and `roads` assets; `make-catalog.mjs` writes it. Leave out anything that has more than one part. |
-| `builtIn` | Portugal only: `map`, `roads` and `buildings` ship inside the Android and iOS apps, and the web app loads them from blackout-maps `ios/BlackoutMaps/Resources/base/`. |
 | `source` | Where the data came from, for the next rebuild. |
 
 ### Assets

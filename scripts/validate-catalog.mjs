@@ -274,14 +274,11 @@ for (const path of entries) {
   const assets = Array.isArray(pack.assets) ? pack.assets : []
   if (!assets.length) problems.push("no assets list (see SPEC.md)")
   const byKey = new Map(assets.map((file) => [file?.key, file]))
-  // Only the autoload package may leave files to the copies built into the apps.
-  const builtIn = new Set(Array.isArray(pack.builtIn) ? pack.builtIn : [])
-  if (builtIn.size && !pack.autoload) problems.push("builtIn is only for the autoload package, whose base files ship inside the apps")
-  for (const key of builtIn) if (!["map", "roads", "buildings"].includes(key)) problems.push(`builtIn: "${key}" is not shipped in the apps`)
+  if (pack.builtIn !== undefined) problems.push("builtIn is no longer allowed: every package lists all seven files in assets")
   for (const required of REQUIRED) {
     const spec = byKey.get(required.key)
     if (!spec) {
-      if (!builtIn.has(required.key)) problems.push(`no "${required.key}" file`)
+      problems.push(`no "${required.key}" file`)
       continue
     }
     if (spec.file !== required.file) problems.push(`${required.key}: file should be "${required.file}"`)
@@ -348,7 +345,7 @@ for (const path of entries) {
     failures += 1
     console.log(`FAIL ${id}`)
     for (const problem of problems) console.log(`  - ${problem}`)
-  } else console.log(`ok   ${id}: ${shallow ? "JSON checked" : `${checked}/${REQUIRED.length - builtIn.size} files opened`}${counts ? ` (${counts})` : ""}`)
+  } else console.log(`ok   ${id}: ${shallow ? "JSON checked" : `${checked}/${REQUIRED.length} files opened`}${counts ? ` (${counts})` : ""}`)
 }
 
 let index = ""

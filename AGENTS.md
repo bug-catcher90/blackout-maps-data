@@ -30,7 +30,7 @@ scripts/readers/                copies of the apps' readers (do not edit)
 
 ## Required layers and limits
 
-Every package has seven assets, keys `map`, `roads`, `buildings`, `places`, `water`, `addresses`, `geo`: basemap, roads, buildings, places/POIs, water, addresses and search. CI rejects a package missing any of them. Only `portugal` (autoload) may list `map`, `roads` and `buildings` in `builtIn` instead.
+Every package has seven assets, keys `map`, `roads`, `buildings`, `places`, `water`, `addresses`, `geo`: basemap, roads, buildings, places/POIs, water, addresses and search. CI rejects a package missing any of them, including `portugal` (autoload).
 
 - Parts: at most 45,000,000 bytes each, named `<file>.gz` for one part or `<file>.gz.000`, `.001`, … for several; `map.pmtiles` is not gzipped.
 - Memory: `roads.bytes + buildings.bytes` (unpacked) under 450,000,000. Over that, split the country into regions with `scripts/maps/make-regions.py`.
